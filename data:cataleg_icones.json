@@ -1,9 +1,12 @@
 {
-  "pluja_meteors": { "icona": "assets/icons/special/pluja_meteors.png" },
-  "solstici": { "icona": "assets/icons/special/solstici.png" },
-  "equinocci": { "icona": "assets/icons/special/equinocci.png" },
-  "canvi_horari": { "icona": "assets/icons/special/canvi_horari.png" },
-  "periheli": { "icona": "assets/icons/special/periheli.png" },
-  "afeli": { "icona": "assets/icons/special/afeli.png" },
-  "eclipsi": { "icona": "assets/icons/special/eclipsi.png" }
+  "pluja_meteors": { "titol": "Pluja de meteors", "icona": "assets/icons/special/pluja_meteors.png" },
+  "canvi_horari": { "titol": "Canvi horari", "icona": "assets/icons/special/canvi_horari.png" },
+  "periheli": { "titol": "Periheli", "icona": "assets/icons/special/periheli.png" },
+  "afeli": { "titol": "Afeli", "icona": "assets/icons/special/afeli.png" },
+  "eclipsi": { "titol": "Eclipsi", "icona": "assets/icons/special/eclipsi.png" },
+
+  "equinocci_primavera": { "titol": "Equinocci (primavera)", "icona": "assets/icons/special/equinocci_primavera.png" },
+  "equinocci_tardor": { "titol": "Equinocci (tardor)", "icona": "assets/icons/special/equinocci_tardor.png" },
+  "solstici_estiu": { "titol": "Solstici (estiu)", "icona": "assets/icons/special/solstici_estiu.png" },
+  "solstici_hivern": { "titol": "Solstici (hivern)", "icona": "assets/icons/special/solstici_hivern.png" }
 }
