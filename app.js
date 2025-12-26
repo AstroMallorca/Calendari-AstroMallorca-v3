@@ -3,13 +3,13 @@
 // === URLs (les teves) ===
 const SHEET_FOTOS_MES = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=0&single=true&output=csv";
 const SHEET_EFEMERIDES = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=1305356303&single=true&output=csv";
-const SHEET_CONFIG = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=1324899531&single=true&output=csv";
+const SHEET_CONFIG = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=1058273430&single=true&output=csv";
 
-// ✅ FESTIUS (A=data DD-MM-YYYY, B=nom)
-const SHEET_FESTIUS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=1058273430&single=true&output=csv";
+// Festius Balears (qualsevol any) — només columna "nom" amb DD-MM-YYYY
+const SHEET_FESTIUS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?output=csv";
 
-// ✅ ICS públic (via proxy per evitar CORS a iPhone/PWA)
-const CALENDAR_ICS = "https://r.jina.ai/http://calendar.google.com/calendar/ical/astromca%40gmail.com/public/basic.ics";
+// ICS públic
+const CALENDAR_ICS = "https://calendar.google.com/calendar/ical/astromca%40gmail.com/public/basic.ics";
 
 // Mesos en català
 const MESOS_CA = [
@@ -179,15 +179,8 @@ async function loadCSV(url) {
 async function loadICS(url) {
   const r = await fetch(url, { cache: "no-store" });
   if (!r.ok) throw new Error(`No puc carregar ICS (${r.status})`);
-  let t = await r.text();
-
-  // r.jina.ai pot afegir text abans del calendari real
-  const idx = t.indexOf("BEGIN:VCALENDAR");
-  if (idx !== -1) t = t.slice(idx);
-
-  return t;
+  return r.text();
 }
-
 
 // === Transformacions ===
 function buildEfemeridesEspecials(objs) {
@@ -466,6 +459,7 @@ console.log("✅ Festius carregats:", festius.size, [...festius.entries()].slice
     renderMes(mesActual);
 
     // refresc suau per agafar canvis (si online)
+    // (efemèrides especials + festius). Manté la mateixa estructura (Map ISO->nom).
     if (navigator.onLine) {
       setTimeout(async () => {
         try {
@@ -473,12 +467,21 @@ console.log("✅ Festius carregats:", festius.size, [...festius.entries()].slice
             loadCSV(SHEET_EFEMERIDES),
             loadCSV(SHEET_FESTIUS)
           ]);
+
           efemeridesEspecials = buildEfemeridesEspecials(esp2);
-          festius = new Set(
-            fest2.map(r => ddmmyyyyToISO(r.nom)).filter(Boolean)
-          );
+
+          const map2 = new Map();
+          fest2.forEach(r => {
+            const iso = ddmmyyyyToISO(r.data);
+            if (!iso) return;
+            map2.set(iso, (r.nom || "Festiu"));
+          });
+          festius = map2;
+
           renderMes(mesActual);
-        } catch {}
+        } catch (e) {
+          console.warn("Refresc dades fallit:", e);
+        }
       }, 15000);
     }
 
@@ -489,3 +492,16 @@ console.log("✅ Festius carregats:", festius.size, [...festius.entries()].slice
 }
 
 inicia();
+
+
+// --- Service Worker: força actualitzacions quan puges canvis a GitHub ---
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    // Quan el SW nou pren control, recarrega per agafar app.js nou
+    window.location.reload();
+  });
+  // Si ja hi ha un SW esperant, l'activam
+  navigator.serviceWorker.getRegistration().then(reg => {
+    if (reg && reg.waiting) reg.waiting.postMessage("SKIP_WAITING");
+  }).catch(()=>{});
+}
