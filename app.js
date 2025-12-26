@@ -3,13 +3,13 @@
 // === URLs (les teves) ===
 const SHEET_FOTOS_MES = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=0&single=true&output=csv";
 const SHEET_EFEMERIDES = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=1305356303&single=true&output=csv";
-const SHEET_CONFIG = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=1058273430&single=true&output=csv";
+const SHEET_CONFIG = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=1324899531&single=true&output=csv";
 
-// Festius Balears (qualsevol any) — només columna "nom" amb DD-MM-YYYY
-const SHEET_FESTIUS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?output=csv";
+// ✅ FESTIUS (A=data DD-MM-YYYY, B=nom)
+const SHEET_FESTIUS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub?gid=1058273430&single=true&output=csv";
 
-// ICS públic
-const CALENDAR_ICS = "https://calendar.google.com/calendar/ical/astromca%40gmail.com/public/basic.ics";
+// ✅ ICS públic (via proxy per evitar CORS a iPhone/PWA)
+const CALENDAR_ICS = "https://r.jina.ai/http://calendar.google.com/calendar/ical/astromca%40gmail.com/public/basic.ics";
 
 // Mesos en català
 const MESOS_CA = [
@@ -179,8 +179,15 @@ async function loadCSV(url) {
 async function loadICS(url) {
   const r = await fetch(url, { cache: "no-store" });
   if (!r.ok) throw new Error(`No puc carregar ICS (${r.status})`);
-  return r.text();
+  let t = await r.text();
+
+  // r.jina.ai pot afegir text abans del calendari real
+  const idx = t.indexOf("BEGIN:VCALENDAR");
+  if (idx !== -1) t = t.slice(idx);
+
+  return t;
 }
+
 
 // === Transformacions ===
 function buildEfemeridesEspecials(objs) {
@@ -229,14 +236,6 @@ const graella = document.getElementById("graellaDies");
 const modal = document.getElementById("modalDia");
 const contingutDia = document.getElementById("contingutDia");
 const botoNocturn = document.getElementById("toggleNocturn");
-
-
-// Helper: "YYYY-MM" -> "MM-YYYY"
-function isoToMonthKey(isoYM) {
-  if (!isoYM || isoYM.length < 7) return "";
-  return `${isoYM.slice(5,7)}-${isoYM.slice(0,4)}`;
-}
-
 
 function setFotoMes(isoYM) {
   const key = isoToMonthKey(isoYM); // "MM-YYYY"

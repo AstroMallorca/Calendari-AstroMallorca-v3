@@ -1,7 +1,7 @@
 // sw.js
 // Offline + actualització automàtica (Sheets CSV + Calendar ICS)
 // IMPORTANT: cada vegada que facis canvis importants, puja la versió (v7 -> v8, etc.)
-const CACHE_NAME = "calendariastromallorca";
+const CACHE_NAME = 'calendari-astromallorca-v5';
 
 // Fitxers mínims per arrencar OFFLINE (mateix origen)
 const CORE_ASSETS = [
@@ -53,7 +53,8 @@ self.addEventListener("fetch", (event) => {
   const allowedOrigins = new Set([
     self.location.origin,
     "https://docs.google.com",
-    "https://calendar.google.com"
+    "https://calendar.google.com",
+    "https://r.jina.ai"
   ]);
 
   if (!allowedOrigins.has(url.origin)) return;
