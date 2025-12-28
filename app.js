@@ -139,7 +139,7 @@ function zonedDateTimeToUtcMs({year, month, day, hour, minute}, timeZone) {
 const ECLIPSI_UTC_MS = zonedDateTimeToUtcMs(ECLIPSI_LOCAL, ECLIPSI_TZ);
 
 function formatCountdownDDHHMM(ms) {
-  if (ms <= 0) return "00D:00H:00M";
+  if (ms <= 0) return "00d:00h:00min";
 
   const totalMinutes = Math.floor(ms / 60000);
   const days = Math.floor(totalMinutes / (60 * 24));
