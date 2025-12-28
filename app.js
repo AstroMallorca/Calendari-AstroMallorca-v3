@@ -454,7 +454,6 @@ function dibuixaMes(isoYM) {
     `;
 // --- ICONES D'EFEMÈRIDES ESPECIALS (logos) ---
 if (esp.length) {
-  const badgesEl = cel.querySelector(".badges");
   const iconsWrap = document.createElement("div");
   iconsWrap.className = "efemerides-icons";
 
@@ -466,6 +465,12 @@ if (esp.length) {
     img.className = "efemeride-icon";
     iconsWrap.appendChild(img);
   });
+
+  // ✅ IMPORTANT: si no existeix .badges, no ha de petar
+  const badgesEl = cel.querySelector(".badges");
+  (badgesEl || cel).appendChild(iconsWrap);
+}
+
 
   badgesEl.appendChild(iconsWrap);
 }
