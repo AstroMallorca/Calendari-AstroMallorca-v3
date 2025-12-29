@@ -259,9 +259,6 @@ body.nocturn .comptador-eclipsi__text{
   display:block;
 }
 
-
-
-
 /* Marca (debug) d'activitat al centre del dia */
 .dia .am-act-center{
   position:absolute;
@@ -269,7 +266,7 @@ body.nocturn .comptador-eclipsi__text{
   top:50%;
   transform:translate(-50%,-50%);
   font-weight:700;
-  font-size:18px;
+  font-size:30px;
   opacity:0.35;
   pointer-events:none;
   z-index:1;
