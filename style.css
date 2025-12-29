@@ -9,7 +9,7 @@ body{
 /* TOP BAR */
 .topbar{
   display:grid;
-  grid-template-columns: 52px auto auto;
+  grid-template-columns: 1fr auto 1fr;
   justify-content: center;
   align-items:center;
   padding: 10px 12px;
