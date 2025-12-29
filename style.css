@@ -15,29 +15,31 @@ body{
   padding: 10px 12px;
   gap: 8px;
 }
-.logo-am{
-  width: 55px;
-  height: 55px;
-  object-fit: contain;
-  margin-right: 2px;   /* ⬅️ AFEGEIX AIXÒ */
+.logo-am,
+.icon-btn{
+  width: 50px;
+  height: 50px;
 }
-.topbar-title{
-  margin: 0;
-  text-align: center;
-  font-size: 34px;
-  font-weight: 800;
-  margin-right: 4px;   /* ⬅️ separació fina amb el botó nocturn */
-}
+
 .btn-icon{
   background: transparent;
   border: 0;
   padding: 6px;
   border-radius: 10px;
 }
-.icon-btn{
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+.topbar-left,
+.topbar-right{
+  width: 60px;           /* mateix ample als dos costats */
+  display: flex;
+  align-items: center;
+}
+
+.topbar-left{
+  justify-content: flex-start;
+}
+
+.topbar-right{
+  justify-content: flex-end;
 }
 
 /* FOTO DEL MES */
