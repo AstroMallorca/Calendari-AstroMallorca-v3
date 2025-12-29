@@ -2,7 +2,8 @@
 
 // === URLs (les teves) ===
 const BASE_SHEETS =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvI_h4s9-0__hru3hWK9D2ewyccoku9ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYzMsBPuxvIh4s9-0__ndl2VhZ0GS8P9uEigShJEehsy2UktnY2/pub";
+
 
 const SHEET_FOTOS_MES = `${BASE_SHEETS}?gid=0&single=true&output=csv`;
 const SHEET_EFEMERIDES = `${BASE_SHEETS}?gid=1305356303&single=true&output=csv`;
@@ -14,6 +15,56 @@ const SHEET_FESTIUS = `${BASE_SHEETS}?gid=1058273430&single=true&output=csv`;
 // ICS públic
 const CALENDAR_ICS =
   "https://calendar.google.com/calendar/ical/astromca%40gmail.com/public/basic.ics";
+
+
+// === Fetch robust (evita errors CORS/500 puntuals) ===
+async function fetchTextWithFallback(urls){
+  let lastErr = null;
+  for (const u of urls){
+    try{
+      const r = await fetch(u, { cache: "no-store" });
+      if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+      const t = await r.text();
+      return { text: t, url: u };
+    }catch(e){
+      lastErr = e;
+      console.warn("[fetch] falla:", u, e);
+    }
+  }
+  throw lastErr || new Error("fetch failed");
+}
+
+function csvFallbacks(url){
+  const enc = encodeURIComponent(url);
+  return [
+    url,
+    `https://api.allorigins.win/raw?url=${enc}`,
+    `https://corsproxy.io/?${enc}`,
+    `https://r.jina.ai/http://${url.replace(/^https?:\/\//,"")}`
+  ];
+}
+
+function icsFallbacks(url){
+  const enc = encodeURIComponent(url);
+  return [
+    // prefer proxys que respectin salts de línia
+    `https://corsproxy.io/?${enc}`,
+    `https://api.allorigins.win/raw?url=${enc}`,
+    url,
+    // últim recurs (pot aplanar; si passa, ho reparam més avall)
+    `https://r.jina.ai/http://${url.replace(/^https?:\/\//,"")}`
+  ];
+}
+
+function normalizeICS(text){
+  // Si ve aplanat (BEGIN:VCALENDAR ... END:VCALENDAR en una sola línia), inserim salts abans de claus.
+  if (!/\r?\n/.test(text) && text.includes("BEGIN:VEVENT")){
+    return text
+      .replace(/(BEGIN:|END:|DTSTART|DTEND|SUMMARY|DESCRIPTION|LOCATION|UID|RRULE|EXDATE|RDATE|SEQUENCE|STATUS|TRANSP|CATEGORIES|CLASS|CREATED|LAST-MODIFIED|DTSTAMP)/g, "\n$1")
+      .trim();
+  }
+  return text;
+}
 
 // Mesos en català
 const MESOS_CA = [
@@ -301,50 +352,16 @@ async function loadCSV(url) {
   const t = await r.text();
   return rowsToObjects(parseCSV(t));
 }
-async function loadICS(baseUrl) {
-  // Intentam diverses passarel·les per esquivar CORS.
-  // IMPORTANT: només acceptam respostes que mantinguin salts de línia tipus ICS (no "aplanades").
-  const candidates = [
-    baseUrl,
-    "https://cors.isomorphic-git.org/" + baseUrl,
-    "https://corsproxy.io/?" + encodeURIComponent(baseUrl),
-    "https://thingproxy.freeboard.io/fetch/" + baseUrl,
-    "https://r.jina.ai/" + baseUrl
-  ];
+async function loadICS(url) {
+  const r = await fetch(url, { cache: "no-store" });
+  if (!r.ok) throw new Error(`No puc carregar ICS (${r.status})`);
+  let t = await r.text();
 
-  function semblaICSValid(t) {
-    if (!t) return false;
-    // Ha de tenir calendari i, sobretot, VEVENT en línies separades (no "BEGIN:VEVENT DTSTART:..." en una sola línia)
-    if (!t.includes("BEGIN:VCALENDAR")) return false;
-    const hasVeLine = t.includes("\nBEGIN:VEVENT") || t.includes("\r\nBEGIN:VEVENT");
-    const hasDtLine = t.includes("\nDTSTART") || t.includes("\r\nDTSTART");
-    return hasVeLine && hasDtLine;
-  }
+  // Amb r.jina.ai a vegades ve text extra; retallam al calendari real
+  const idx = t.indexOf("BEGIN:VCALENDAR");
+  if (idx !== -1) t = t.slice(idx);
 
-  let lastErr = null;
-  for (const url of candidates) {
-    try {
-      const r = await fetch(url, { cache: "no-store" });
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      let t = await r.text();
-
-      // Retallam a partir del BEGIN:VCALENDAR per si hi ha cap capçalera extra
-      const idx = t.indexOf("BEGIN:VCALENDAR");
-      if (idx !== -1) t = t.slice(idx);
-
-      if (!semblaICSValid(t)) {
-        // Si és la versió "aplanada" (r.jina.ai), descartam i provam el següent.
-        throw new Error("Format ICS no vàlid (possiblement sense salts de línia)");
-      }
-
-      console.info("[ICS] OK via:", url, "len:", t.length);
-      return t;
-    } catch (e) {
-      console.warn("[ICS] falla via:", url, e.message || e);
-      lastErr = e;
-    }
-  }
-  throw lastErr || new Error("No puc carregar ICS");
+  return t;
 }
 
 // === Transformacions ===
