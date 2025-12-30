@@ -143,6 +143,24 @@ body{
   font-size: 16px;
   line-height: 1;
 }
+/* Dies del mes anterior/següent (mateix fons, text gris clar) */
+.dia.altre-mes{
+  background: #f1f1f1;              /* igual que .dia */
+}
+
+.dia.altre-mes .num{
+  color: rgba(0,0,0,0.35) !important; /* gris clar */
+}
+
+/* Mode nocturn: mantenim el fons nocturn, però “apagat” */
+body.nocturn .dia.altre-mes{
+  background:#120000;
+  opacity: 0.65;
+}
+
+body.nocturn .dia.altre-mes .num{
+  color: rgba(255,68,68,0.45) !important;
+}
 
 /* Diumenges i festius: número verd */
 .dia.festiu .num{
