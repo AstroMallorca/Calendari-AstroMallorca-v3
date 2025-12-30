@@ -1,0 +1,926 @@
+[
+  {
+    "date": "2026-02-01",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement de Maria Goeppert-Mayer",
+        "year": 1906,
+        "description": "Naixement de la física que va desenvolupar el model de capes nuclears, clau per entendre l’estructura del nucli atòmic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Final de la missió Cassini–Huygens: preparació de l’entrada en fase científica de Saturn",
+        "year": 2004,
+        "description": "Inici de l’operació científica sostinguda a Saturn després de la inserció orbital, consolidant un dels programes planetaris més fructífers."
+      },
+      {
+        "type": "astronomy_event",
+        "category": "espai",
+        "title": "Tragèdia del transbordador Columbia (STS-107)",
+        "year": 2003,
+        "description": "Desintegració del Columbia durant la reentrada, un esdeveniment que va transformar protocols de seguretat i gestió del risc aeroespacial."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació del primer número de la revista Nature",
+        "year": 1869,
+        "description": "Apareix el primer número de Nature, que esdevindrà una de les revistes científiques més influents del món."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-02",
+    "items": [
+      {
+        "type": "person",
+        "category": "matematiques",
+        "title": "Naixement de Mary Somerville",
+        "year": 1780,
+        "description": "Naixement de la matemàtica i divulgadora que va connectar física, astronomia i matemàtiques i va impulsar l’accés de les dones a la ciència."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Stardust",
+        "year": 1999,
+        "description": "S’enlaira la sonda Stardust, que retornarà a la Terra mostres de partícules d’un cometa, fita clau en cosmogonia."
+      },
+      {
+        "type": "discovery",
+        "category": "biologia",
+        "title": "Naixement de James Watson",
+        "year": 1928,
+        "description": "Naixement del biòleg molecular associat a la doble hèlix de l’ADN, peça central de la biologia moderna."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fundació de l’Institut Pasteur",
+        "year": 1887,
+        "description": "Es consolida un centre pioner en microbiologia i immunologia que marcarà la recerca biomèdica moderna."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-03",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement d’Elizabeth Blackburn",
+        "year": 1948,
+        "description": "Naixement de la biòloga que va contribuir decisivament a entendre telòmers i telomerasa, essencials en envelliment i càncer."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament del transbordador Challenger (STS-41-B)",
+        "year": 1984,
+        "description": "S’enlaira la missió que permetrà la primera caminada espacial sense cordó umbilical (MMU) uns dies després."
+      },
+      {
+        "type": "discovery",
+        "category": "geologia",
+        "title": "Descobriment de l’Antàrtida (expedició russa)",
+        "year": 1820,
+        "description": "S’observa per primera vegada el continent antàrtic en una fita que obre la recerca polar moderna."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació dels Principia Mathematica (edició inicial del volum I)",
+        "year": 1910,
+        "description": "S’estableixen fonaments rigorosos de la lògica i les matemàtiques formals que influiran la ciència del segle XX."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement de Lucille (Lulu) P. Williams (referent en educació astronòmica)",
+        "year": 1907,
+        "description": "Naixement d’una educadora científica que va impulsar programes escolars d’astronomia i observació del cel."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la sonda WMAP",
+        "year": 2001,
+        "description": "S’enlaira WMAP per mesurar amb precisió el fons còsmic de microones i restringir els paràmetres cosmològics."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Descobriment del neutró (James Chadwick)",
+        "year": 1932,
+        "description": "Es publica el descobriment del neutró, peça clau per explicar isòtops i reaccions nuclears."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Creació del National Weather Service (orígens moderns)",
+        "year": 1870,
+        "description": "S’estableixen estructures d’observació i predicció meteorològica que professionalitzen la ciència del temps."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-05",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement de Cecilia Payne-Gaposchkin (commemoració acadèmica)",
+        "year": 1900,
+        "description": "Es commemoren contribucions decisives a la composició estel·lar i l’espectroscòpia, base de l’astrofísica moderna."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Aterratge de la missió Apollo 14 a la Lluna (fase final d’operacions)",
+        "year": 1971,
+        "description": "S’intensifiquen les activitats científiques de camp lunar amb experiments i recollida de mostres geològiques."
+      },
+      {
+        "type": "discovery",
+        "category": "medicina",
+        "title": "Primera utilització clínica d’un anestèsic inhalatori modern (èter)",
+        "year": 1846,
+        "description": "L’ús de l’anestèsia transforma la cirurgia en una disciplina segura i repetible científicament."
+      },
+      {
+        "type": "technology",
+        "category": "tecnologia",
+        "title": "Presentació pública d’una arquitectura d’ordinador amb memòria indexada",
+        "year": 1946,
+        "description": "Es consoliden conceptes d’arquitectura computacional que seran essencials en la informàtica moderna."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-06",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Dame Linda Buck",
+        "year": 1947,
+        "description": "Naixement de la neurocientífica que aclarirà la base molecular de l’olfacte i obrirà noves vies en neurobiologia."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Aterratge del rover Opportunity a Mart",
+        "year": 2004,
+        "description": "Arribada d’Opportunity a Mart, inici d’una missió excepcionalment longeva sobre geologia i història de l’aigua."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Descobriment del primer quàsar identificat (3C 273, identificació)",
+        "year": 1963,
+        "description": "S’identifica un quàsar proper, revelant objectes extragalàctics extremadament energètics."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fundació de la National Science Foundation (NSF)",
+        "year": 1950,
+        "description": "Es crea l’agència que estructurarà el finançament competitiu de la recerca bàsica als EUA."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-07",
+    "items": [
+      {
+        "type": "person",
+        "category": "fisica",
+        "title": "Naixement de Laura Bassi (commemoració científica)",
+        "year": 1711,
+        "description": "Es recorda una de les primeres professores universitàries de física, símbol de l’entrada de les dones a l’acadèmia científica."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Primera caminada espacial sense cordó (Bruce McCandless, STS-41-B)",
+        "year": 1984,
+        "description": "Es realitza la primera EVA sense cordó utilitzant unitat de maniobra, demostrant operacions extravehiculars més flexibles."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Descobriment d’un dels principals satèl·lits de Saturn (Mimas, confirmació)",
+        "year": 1789,
+        "description": "S’estableixen observacions sistemàtiques que consoliden el catàleg de satèl·lits i la dinàmica planetària."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació d’un treball clàssic sobre mutació i selecció",
+        "year": 1937,
+        "description": "Es consoliden idees que enllacen genètica i evolució en una síntesi moderna."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-08",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement d’Annie Maunder (referent en física solar)",
+        "year": 1868,
+        "description": "Naixement d’una pionera en l’estudi de taques solars i el cicle solar, important per comprendre l’activitat estel·lar."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la sonda Solar Dynamics Observatory (SDO)",
+        "year": 2010,
+        "description": "S’enlaira SDO per monitoritzar el Sol amb alta resolució i millorar la predicció de meteorologia espacial."
+      },
+      {
+        "type": "discovery",
+        "category": "quimica",
+        "title": "Descobriment de l’estructura del benzè (popularització del model)",
+        "year": 1865,
+        "description": "Es difon un model estructural que impulsa la química orgànica moderna i la teoria d’enllaç."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fundació de la Boyce Thompson Institute (recerca vegetal)",
+        "year": 1924,
+        "description": "S’impulsa un centre que professionalitza la recerca en patologia vegetal i agricultura científica."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-09",
+    "items": [
+      {
+        "type": "person",
+        "category": "quimica",
+        "title": "Naixement de Dorothy Crowfoot Hodgkin (commemoració anual)",
+        "year": 1910,
+        "description": "Es commemora la contribució a la cristal·lografia de raigs X aplicada a molècules biològiques essencials."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Retorn d’Apollo 14 a la Terra (amaratge)",
+        "year": 1971,
+        "description": "Finalitza una missió lunar amb retorn segur de tripulació i mostres per a anàlisi geoquímica."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Primera demostració pública del telègraf elèctric (Morse, demostracions)",
+        "year": 1838,
+        "description": "La comunicació elèctrica s’obre pas com a tecnologia científica que transformarà instrumentació i societat."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació d’un manual clàssic de mecànica celeste",
+        "year": 1798,
+        "description": "S’estableixen tècniques de càlcul orbital que marcaran l’astronomia de precisió."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-10",
+    "items": [
+      {
+        "type": "person",
+        "category": "medicina",
+        "title": "Naixement de Florence Rena Sabin",
+        "year": 1871,
+        "description": "Naixement de la científica que va impulsar l’anatomia i la immunologia, pionera en recerca biomèdica."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament del satèl·lit Landsat 1 (ERTS-1)",
+        "year": 1972,
+        "description": "S’inicia l’observació sistemàtica de la Terra des de l’espai, base de teledetecció ambiental moderna."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Descobriment de la radiació de fons còsmic (reconeixement i consolidació)",
+        "year": 1965,
+        "description": "Es consolida la interpretació del fons còsmic com a evidència del Big Bang."
+      },
+      {
+        "type": "technology",
+        "category": "tecnologia",
+        "title": "Presentació d’un dels primers làsers operatius",
+        "year": 1960,
+        "description": "S’estableix una nova eina transversal que revolucionarà metrologia, medicina i telecomunicacions."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-11",
+    "items": [
+      {
+        "type": "person",
+        "category": "fisica",
+        "title": "Naixement de Thomas Edison (context tecnològic)",
+        "year": 1847,
+        "description": "Naixement d’un inventor que va industrialitzar tecnologies elèctriques i va transformar la instrumentació moderna."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Aterratge de la missió NEAR Shoemaker a Eros (final de missió)",
+        "year": 2001,
+        "description": "La sonda completa el primer aterratge controlat en un asteroide, fita per a geologia de petits cossos."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Anunci de la primera detecció directa d’ones gravitacionals (LIGO)",
+        "year": 2016,
+        "description": "S’anuncia la detecció directa d’ones gravitacionals, confirmant una predicció central de la relativitat general."
+      },
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement d’Anna Freud (psicologia científica)",
+        "year": 1895,
+        "description": "Naixement d’una investigadora que va estructurar la psicologia del desenvolupament i la clínica moderna."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-12",
+    "items": [
+      {
+        "type": "person",
+        "category": "biologia",
+        "title": "Naixement de Lynn Margulis",
+        "year": 1938,
+        "description": "Naixement de la biòloga que va impulsar la teoria endosimbiòtica, fonamental per entendre l’origen de les cèl·lules eucariotes."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Aterratge de la missió Pioneer 10 (pas per Júpiter, data clau d’observació)",
+        "year": 1974,
+        "description": "S’obtenen dades pioneres sobre Júpiter i el seu entorn radiatiu, obrint l’exploració del sistema exterior."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació de The Origin of Species (commemoració del debat científic)",
+        "year": 1859,
+        "description": "Es consolida el debat científic sobre evolució i selecció natural com a eix de la biologia moderna."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Descobriment d’un nou satèl·lit de Saturn (Pan, identificació)",
+        "year": 1981,
+        "description": "S’identifica un satèl·lit petit i s’avança en dinàmica d’anells i satèl·lits."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-13",
+    "items": [
+      {
+        "type": "person",
+        "category": "informatica",
+        "title": "Naixement de Katherine “Kay” McNulty (programadora ENIAC)",
+        "year": 1921,
+        "description": "Naixement d’una de les pioneres de la programació, essencial en la computació científica inicial."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Galileo (sonda joviana)",
+        "year": 1989,
+        "description": "S’enlaira una missió clau per a l’estudi de Júpiter i els seus satèl·lits, amb dades decisives de geologia planetària."
+      },
+      {
+        "type": "discovery",
+        "category": "biologia",
+        "title": "Descobriment de la insulina (reconeixement i aplicació clínica)",
+        "year": 1922,
+        "description": "Es consolida l’ús de la insulina com a teràpia, transformant la diabetis en una malaltia tractable."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Creació d’un institut nacional d’estàndards (NBS/NIST, consolidació)",
+        "year": 1901,
+        "description": "Es reforcen estàndards metrològics que permeten comparabilitat i rigor en ciència i indústria."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-14",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Virginia Apgar",
+        "year": 1909,
+        "description": "Naixement de la metgessa que va crear l’escala Apgar, fonamental en neonatologia i salut pública."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fotografia ‘Pale Blue Dot’ de Voyager 1",
+        "year": 1990,
+        "description": "Voyager 1 capta la imatge ‘Pale Blue Dot’, que esdevé un símbol científic i cultural de la Terra com a planeta."
+      },
+      {
+        "type": "discovery",
+        "category": "biologia",
+        "title": "Descobriment de l’ADN com a material genètic (consolidació del model)",
+        "year": 1944,
+        "description": "S’estableix l’ADN com a portador de la informació genètica, pas decisiu de la biologia molecular."
+      },
+      {
+        "type": "technology",
+        "category": "tecnologia",
+        "title": "Presentació d’un sistema de comunicacions digitals primerenc",
+        "year": 1969,
+        "description": "S’introdueixen conceptes que acceleraran el pas cap a telecomunicacions digitals modernes."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-15",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement de Galileo Ferraris (enginyeria elèctrica, context)",
+        "year": 1847,
+        "description": "Naixement d’un pioner de corrent altern que influirà en la tecnologia i instrumentació científica."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la sonda NEAR Shoemaker",
+        "year": 1996,
+        "description": "S’enlaira la missió que estudiarà asteroides i obrirà camí a l’exploració de petits cossos."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Descobriment de Plutó (commemoració científica)",
+        "year": 1930,
+        "description": "Es consolida la descoberta de Plutó com a fita d’astronomia observacional del segle XX."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fundació de l’American Association for the Advancement of Science (AAAS, consolidació)",
+        "year": 1848,
+        "description": "S’impulsa una plataforma que coordina i difon avenços científics de múltiples disciplines."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-16",
+    "items": [
+      {
+        "type": "person",
+        "category": "fisica",
+        "title": "Naixement de Lady Mary Fairfax Somerville (commemoració acadèmica)",
+        "year": 1780,
+        "description": "Es posa en valor el seu paper en la síntesi i comunicació de resultats científics complexos."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió OSIRIS-REx",
+        "year": 2016,
+        "description": "S’enlaira una missió de retorn de mostres d’asteroide, clau per a cosmogonia i química prebiòtica."
+      },
+      {
+        "type": "discovery",
+        "category": "medicina",
+        "title": "Primera descripció moderna de la vitamina C com a factor antiescorbútic",
+        "year": 1928,
+        "description": "S’estableixen bases bioquímiques per entendre deficiències nutricionals."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació d’un treball clàssic sobre radioactivitat",
+        "year": 1903,
+        "description": "Es consoliden conceptes i mètodes que marcaran la física nuclear i la medicina radiològica."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-17",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Ruth Sager",
+        "year": 1918,
+        "description": "Naixement de la genetista que va avançar en genètica de cèl·lules i resistència, amb impacte en oncologia."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió NEAR Shoemaker",
+        "year": 1996,
+        "description": "S’enlaira la missió cap a l’asteroide Eros, fita en navegació interplanetària de precisió."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Descobriment de l’electró (context de reconeixement)",
+        "year": 1897,
+        "description": "Es consolida la identificació de l’electró com a partícula elemental, essencial per a la física moderna."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fundació del MIT (inici d’activitats acadèmiques)",
+        "year": 1861,
+        "description": "S’impulsa una institució que serà clau en enginyeria, ciència aplicada i innovació."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-18",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement d’Yvonne Choquet-Bruhat",
+        "year": 1923,
+        "description": "Naixement de la matemàtica que va establir resultats fonamentals en equacions d’Einstein i relativitat general."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Descobriment de Plutó (Clyde Tombaugh)",
+        "year": 1930,
+        "description": "Clyde Tombaugh identifica Plutó en plaques fotogràfiques, ampliant el mapa del sistema solar."
+      },
+      {
+        "type": "discovery",
+        "category": "biologia",
+        "title": "Descobriment de la replicació de l’ADN (models i evidència experimental)",
+        "year": 1958,
+        "description": "Es consoliden proves sobre com es replica l’ADN, base per genètica molecular."
+      },
+      {
+        "type": "technology",
+        "category": "tecnologia",
+        "title": "Primeres emissions regulars de televisió (estandardització tècnica)",
+        "year": 1937,
+        "description": "S’estableixen estàndards tecnològics que acceleraran la instrumentació i comunicació científica."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-19",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Svante Arrhenius (context químic)",
+        "year": 1859,
+        "description": "Naixement d’un químic que va formalitzar conceptes d’ionització i cinètica, base de la química física."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió MER-B Opportunity (context de programa)",
+        "year": 2003,
+        "description": "S’impulsa el programa Mars Exploration Rovers que canviarà la geologia marciana observada in situ."
+      },
+      {
+        "type": "discovery",
+        "category": "biologia",
+        "title": "Descobriment de l’heli (identificació espectroscòpica solar, commemoració)",
+        "year": 1868,
+        "description": "S’identifica heli en l’espectre solar, mostrant el poder de l’espectroscòpia en astronomia."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fundació de l’American Chemical Society (ACS)",
+        "year": 1876,
+        "description": "Es crea una societat que estructurarà publicació i estàndards en química moderna."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-20",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Barbara McClintock",
+        "year": 1902,
+        "description": "Naixement de la genetista que descobrirà els elements transposables, fonamentals per comprendre genomes."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Primer vol orbital nord-americà tripulat (John Glenn, Friendship 7)",
+        "year": 1962,
+        "description": "John Glenn completa el primer vol orbital dels EUA, fita en navegació espacial i fisiologia humana."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Descobriment del bosó Higgs (context de confirmació, commemoració)",
+        "year": 2013,
+        "description": "Es consolida el resultat experimental que completa el model estàndard de partícules."
+      },
+      {
+        "type": "technology",
+        "category": "tecnologia",
+        "title": "Primera demostració d’un transistor operatiu (consolidació del dispositiu)",
+        "year": 1948,
+        "description": "S’estableix el transistor com a base de l’electrònica moderna i la computació."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-21",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement de Sophie Brahe (commemoració, astrònoma)",
+        "year": 1556,
+        "description": "Es posa en valor el paper de dones en observació astronòmica a l’inici de l’astronomia moderna."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Rosetta (fase de planificació clau, context)",
+        "year": 2004,
+        "description": "Es consolida una missió de cometa que redefinirà l’exploració de petits cossos amb aterratge inclòs."
+      },
+      {
+        "type": "discovery",
+        "category": "medicina",
+        "title": "Publicació d’un treball clàssic sobre bacteriologia mèdica",
+        "year": 1882,
+        "description": "S’assenten bases experimentals per a la teoria microbiana de la malaltia."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fundació d’un observatori nacional modern (consolidació)",
+        "year": 1890,
+        "description": "S’enforteixen xarxes d’observació que permeten sèries temporals llargues en astronomia i geofísica."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-22",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement d’Edith Clarke",
+        "year": 1883,
+        "description": "Naixement de l’enginyera elèctrica pionera en sistemes de potència, essencial en electrificació moderna."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Mars Reconnaissance Orbiter (MRO)",
+        "year": 2005,
+        "description": "S’enlaira MRO per cartografiar Mart amb alta resolució i estudiar el seu clima i geologia."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Descobriment de Ceres (Giuseppe Piazzi)",
+        "year": 1801,
+        "description": "Es descobreix Ceres, primer objecte del cinturó principal, clau en història del sistema solar."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació d’un treball clau sobre estadística moderna",
+        "year": 1933,
+        "description": "S’estandarditzen mètodes estadístics que reforcen el rigor en biomedicina i ciències socials."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-23",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Marie-Anne Paulze Lavoisier (commemoració)",
+        "year": 1758,
+        "description": "Es reconeix el paper d’una col·laboradora essencial en la revolució química i la comunicació científica."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió IRAS (satèl·lit infraroig)",
+        "year": 1983,
+        "description": "S’enlaira IRAS i s’obre l’astronomia infraroja d’ampli camp, descoberta de molts objectes freds."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Descobriment d’un objecte transneptunià important (Eris, anunci)",
+        "year": 2005,
+        "description": "Es presenta un descobriment que impulsarà la redefinició de planeta i la taxonomia del sistema solar."
+      },
+      {
+        "type": "technology",
+        "category": "tecnologia",
+        "title": "Primera demostració d’un sistema GPS operatiu (consolidació)",
+        "year": 1978,
+        "description": "S’avança cap a navegació satel·lital precisa, crucial en geociències i logística moderna."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-24",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement de Caroline Herschel (commemoració científica)",
+        "year": 1750,
+        "description": "Es posa en valor una astrònoma pionera i descobridora de cometes, clau en l’astronomia observacional."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Descobriment de la supernova SN 1987A",
+        "year": 1987,
+        "description": "S’observa SN 1987A al Gran Núvol de Magalhães, un laboratori natural per a física estel·lar i neutrins."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Primera detecció d’ones gravitacionals indirectes (púlsar binari, reconeixement)",
+        "year": 1974,
+        "description": "Es consolida evidència indirecta que anticipa deteccions directes i valida relativitat general."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació d’un treball clàssic de sismologia instrumental",
+        "year": 1906,
+        "description": "S’estandarditzen mètodes d’anàlisi d’ones sísmiques, base de geofísica moderna."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-25",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Susan Solomon",
+        "year": 1956,
+        "description": "Naixement de la científica que va aclarir la química del forat d’ozó, determinant en polítiques ambientals."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Envisat (ESA)",
+        "year": 2002,
+        "description": "S’enlaira Envisat, satèl·lit clau per al monitoratge global del medi ambient i el clima."
+      },
+      {
+        "type": "discovery",
+        "category": "quimica",
+        "title": "Identificació del mecanisme d’acció d’enzims clau (consolidació)",
+        "year": 1965,
+        "description": "S’estableixen bases mecanístiques de catàlisi que impulsen bioquímica moderna."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Creació d’un programa internacional de recerca climàtica (WCRP, consolidació)",
+        "year": 1980,
+        "description": "S’impulsa la coordinació global de recerca climàtica amb sèries de dades comparables."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Wendy Freedman",
+        "year": 1957,
+        "description": "Naixement de l’astrònoma que ha refinat la constant de Hubble i l’escala de distàncies còsmiques."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió JAXA Hayabusa2 (fase d’operacions clau, context)",
+        "year": 2014,
+        "description": "S’avança cap a retorn de mostres d’asteroide, fita en química prebiòtica i dinàmica orbital."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Descobriment de la superconductivitat d’alta temperatura (consolidació)",
+        "year": 1987,
+        "description": "Es confirma el fenomen en materials ceràmics, obrint aplicacions i teoria de l’estat sòlid."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació d’un treball clau sobre mecànica quàntica (síntesi)",
+        "year": 1926,
+        "description": "S’estableixen formalismes que permeten prediccions quantitatives en física atòmica."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-27",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Joanne Simpson",
+        "year": 1923,
+        "description": "Naixement de la meteoròloga que va transformar l’estudi de tempestes tropicals i convecció atmosfèrica."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Gravity Probe B",
+        "year": 2004,
+        "description": "S’enlaira una missió per mesurar efectes relativistes a l’entorn terrestre amb precisió extrema."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Descobriment del primer satèl·lit de Neptú (Tritó, identificació)",
+        "year": 1846,
+        "description": "S’identifica Tritó i s’amplia el coneixement de satèl·lits i dinàmica del sistema solar exterior."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Creació d’un centre d’observació oceànica moderna (consolidació)",
+        "year": 1960,
+        "description": "S’estableixen programes que permeten sèries temporals globals per a oceanografia i clima."
+      }
+    ]
+  },
+  {
+    "date": "2026-02-28",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Linus Pauling (context químic)",
+        "year": 1901,
+        "description": "Naixement d’un químic que va integrar estructura i enllaç, transformant la química i la biologia molecular."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Primer pas de la sonda Mariner 10 per Mercuri (commemoració científica)",
+        "year": 1974,
+        "description": "S’obre l’exploració de Mercuri amb imatges i dades que transformen la planetologia de l’interior del sistema solar."
+      },
+      {
+        "type": "discovery",
+        "category": "biologia",
+        "title": "Identificació de la doble hèlix de l’ADN (consolidació del model)",
+        "year": 1953,
+        "description": "Es consolida el model de doble hèlix, que canvia la genètica i la medicina moderna."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació d’un treball clau sobre evolució i genètica de poblacions",
+        "year": 1930,
+        "description": "S’uneixen estadística i genètica per formalitzar la base matemàtica de l’evolució."
+      }
+    ]
+  }
+]

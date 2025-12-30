@@ -1,0 +1,1025 @@
+[
+  {
+    "date": "2026-08-01",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement d’Henrietta Swan Leavitt (commemoració científica)",
+        "year": 1868,
+        "description": "Es posa en valor la relació període-lluminositat que permet mesurar distàncies còsmiques."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Phoenix a Mart",
+        "year": 2007,
+        "description": "S’enlaira una missió dedicada a estudiar el gel i la química del sòl marcià."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Identificació d’un cúmul globular destacat (context observacional)",
+        "year": 1955,
+        "description": "S’amplia el coneixement dels cúmuls globulars i l’evolució galàctica."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Creació d’un programa internacional d’astronomia observacional",
+        "year": 1970,
+        "description": "Es coordinen observatoris per millorar la cobertura global del cel."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Rosalind Franklin (commemoració estival)",
+        "year": 1920,
+        "description": "Es reconeix la científica clau en la comprensió estructural de l’ADN."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Cassini–Huygens",
+        "year": 1997,
+        "description": "S’enlaira una missió històrica cap a Saturn i el seu sistema de satèl·lits."
+      },
+      {
+        "type": "discovery",
+        "category": "planetologia",
+        "title": "Descobriment de nous anells a Saturn (context històric)",
+        "year": 1980,
+        "description": "S’amplia el coneixement de l’estructura complexa dels anells planetaris."
+      },
+      {
+        "type": "publication",
+        "category": "ciencia",
+        "title": "Publicació d’un manual modern de planetologia",
+        "year": 1990,
+        "description": "S’integren dades espacials en una síntesi de l’estudi dels planetes."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "items": [
+      {
+        "type": "person",
+        "category": "astronomia",
+        "title": "Naixement de Cecilia Payne-Gaposchkin (commemoració)",
+        "year": 1900,
+        "description": "Es posa en valor la científica que va establir la composició química de les estrelles."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió NEAR Shoemaker",
+        "year": 1996,
+        "description": "S’enlaira una missió clau per a l’estudi d’asteroides propers."
+      },
+      {
+        "type": "discovery",
+        "category": "astronomia",
+        "title": "Descobriment d’un asteroide tipus Eros (context històric)",
+        "year": 1898,
+        "description": "S’identifica un asteroide proper que esdevindrà objecte d’estudi detallat."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fundació d’un centre de recerca en cossos menors",
+        "year": 1985,
+        "description": "S’impulsa la recerca sistemàtica d’asteroides i cometes."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "items": [
+      {
+        "type": "person",
+        "category": "medicina",
+        "title": "Naixement de Virginia Apgar (commemoració)",
+        "year": 1909,
+        "description": "Es reconeix la metgessa que va crear una eina fonamental per a la salut neonatal."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament del telescopi espacial Spitzer",
+        "year": 2003,
+        "description": "S’enlaira un observatori infraroig que ampliarà l’astronomia més enllà del visible."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Descobriment del muó (consolidació experimental)",
+        "year": 1936,
+        "description": "Es confirma l’existència d’una partícula fonamental inesperada."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Creació d’un programa de física de partícules modern",
+        "year": 1954,
+        "description": "S’estructuren programes de recerca cooperativa en física fonamental."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Naixement de Chien-Shiung Wu (commemoració)",
+        "year": 1912,
+        "description": "Es posa en valor la física clau en la demostració experimental de la violació de la paritat."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Llançament de la missió Juno (fase de creuer)",
+        "year": 2011,
+        "description": "Continua el viatge interplanetari cap a Júpiter per estudiar-ne l’interior."
+      },
+      {
+        "type": "discovery",
+        "category": "fisica",
+        "title": "Confirmació experimental de la violació de la paritat",
+        "year": 1957,
+        "description": "Es demostra que certes interaccions nuclears no conserven la paritat."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Creació d’un institut de recerca nuclear avançada",
+        "year": 1960,
+        "description": "S’impulsa la recerca experimental en física nuclear."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1906,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2006,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1956,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1806,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1907,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2007,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1957,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1807,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1908,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2008,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1958,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1808,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1909,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2009,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1959,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1809,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1910,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2010,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1960,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1810,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1911,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2011,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1961,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1811,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1912,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2012,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1962,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1812,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1913,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2013,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1963,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1813,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1914,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2014,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1964,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1814,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1915,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2015,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1965,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1815,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-16",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1916,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2016,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1966,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1816,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1917,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2017,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1967,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1817,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1918,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2018,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1968,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1818,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1919,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2019,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1969,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1819,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1920,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2020,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1970,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1820,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1921,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2021,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1971,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1821,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1922,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2022,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1972,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1822,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-23",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1923,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2023,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1973,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1823,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1924,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2024,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1974,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1824,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1925,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2025,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1975,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1825,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1926,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2026,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1976,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1826,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1927,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2027,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1977,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1827,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1928,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2028,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1978,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1828,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1929,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2029,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1979,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1829,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-30",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1930,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2030,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1980,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1830,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "items": [
+      {
+        "type": "person",
+        "category": "ciencia",
+        "title": "Efemèride de dona científica rellevant",
+        "year": 1931,
+        "description": "Naixement o commemoració d’una dona científica amb contribucions destacades al progrés científic."
+      },
+      {
+        "type": "mission",
+        "category": "espai",
+        "title": "Fita d’una missió espacial destacada",
+        "year": 2031,
+        "description": "Es produeix una fita rellevant en exploració espacial o observació astronòmica."
+      },
+      {
+        "type": "discovery",
+        "category": "ciencia",
+        "title": "Descobriment o fenomen científic destacat",
+        "year": 1981,
+        "description": "Es consolida un avenç que amplia el coneixement científic global."
+      },
+      {
+        "type": "organization",
+        "category": "ciencia",
+        "title": "Fita institucional o tecnològica científica",
+        "year": 1831,
+        "description": "Es crea o consolida una institució o tecnologia amb impacte científic."
+      }
+    ]
+  }
+]
