@@ -51,10 +51,11 @@ self.addEventListener("fetch", (event) => {
 
   // Allowlist d'orígens (per poder cachejar Sheets i Calendar)
   const allowedOrigins = new Set([
-    self.location.origin,
-    "https://docs.google.com",
-    "https://calendar.google.com"
-  ]);
+  self.location.origin,
+  "https://docs.google.com",
+  "https://calendar.google.com",
+  "https://cdn.jsdelivr.net"
+]);
 
   if (!allowedOrigins.has(url.origin)) return;
 
