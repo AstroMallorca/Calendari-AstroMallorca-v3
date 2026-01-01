@@ -301,19 +301,25 @@ function formatHM(dateObj){
 // Calcula sortida/posta amb Astronomy Engine (si està carregada)
 function getRiseSet(bodyName, iso, observer){
   try{
-    if (typeof Astronomy === "undefined" || !Astronomy.SearchRiseSet) return { rise: null, set: null };
+    if (typeof Astronomy === "undefined" || !Astronomy.SearchRiseSet) {
+      return { rise: null, set: null };
+    }
 
     const [Y,M,D] = iso.split("-").map(Number);
-    // començam el dia a mitjanit local
     const start = new Date(Y, M-1, D, 0, 0, 0);
 
-    // Rise
-    const riseEvt = Astronomy.SearchRiseSet(bodyName, observer, +1, start, 1);
-    const rise = riseEvt?.date ? new Date(riseEvt.date) : null;
+    // ✅ Astronomy vol un Observer propi
+    const lat = Number(observer?.latitude ?? DEFAULT_OBSERVER.latitude);
+    const lon = Number(observer?.longitude ?? DEFAULT_OBSERVER.longitude);
+    const h   = Number(observer?.elevation ?? observer?.height ?? 0);
 
-    // Set
-    const setEvt = Astronomy.SearchRiseSet(bodyName, observer, -1, start, 1);
-    const set = setEvt?.date ? new Date(setEvt.date) : null;
+    const obs = new Astronomy.Observer(lat, lon, isFinite(h) ? h : 0);
+
+    const riseEvt = Astronomy.SearchRiseSet(bodyName, obs, +1, start, 1);
+    const setEvt  = Astronomy.SearchRiseSet(bodyName, obs, -1, start, 1);
+
+    const rise = riseEvt?.date ? new Date(riseEvt.date) : null;
+    const set  = setEvt?.date  ? new Date(setEvt.date)  : null;
 
     return { rise, set };
   }catch(e){
