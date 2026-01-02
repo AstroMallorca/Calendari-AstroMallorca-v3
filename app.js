@@ -628,41 +628,46 @@ function setFotoMes(isoYM) {
   };
 }
 function obreModalDetallFoto(f) {
-  // helper: pinta una línia només si hi ha valor
-  const field = (label, value) => {
-    const v = (value ?? "").toString().trim();
-    if (!v) return "";
-    return `<p><b>${label}:</b> ${v}</p>`;
-  };
+  const clean = (v) => (v ?? "").toString().trim();
+
+  const titol = clean(f.titol);
+  const autor = clean(f.autor);
+  const lloc  = clean(f.lloc);
 
   // alguns fulls poden dir "credit" o "credits"
-  const credits = (f.credits ?? f.credit ?? "").toString().trim();
+  const credits = clean(f.credits ?? f.credit);
 
-  // ordre i condicions tal com demanes
+  // tècnica compacta (1–2 línies)
   const tech = [];
-  if (f.camera) tech.push(`📷 ${f.camera}`);
-  if (f.objectiu) tech.push(`🔭 ${f.objectiu}`);
-  if (f.exposicio) tech.push(`⏱ ${f.exposicio}`);
-  if (f.iso) tech.push(`ISO ${f.iso}`);
-  if (f.f) tech.push(`f/${f.f}`);
+  if (clean(f.camera))   tech.push(`📷 ${clean(f.camera)}`);
+  if (clean(f.objectiu)) tech.push(`🔭 ${clean(f.objectiu)}`);
+  if (clean(f.exposicio))tech.push(`⏱ ${clean(f.exposicio)}`);
+  if (clean(f.iso))      tech.push(`ISO ${clean(f.iso)}`);
+  if (clean(f.f))        tech.push(`f/${clean(f.f)}`);
 
   const techHtml = tech.length ? `<div class="foto-tech">${tech.join(" · ")}</div>` : "";
-  const descCurta  = (f.descripcio_curta  ?? "").toString().trim();
-  const descLlarga = (f.descripcio_llarga ?? "").toString().trim();
+
+  // ✅ ara al sheet tens "descripcio" (la curta)
+  const descCurta  = clean(f.descripcio ?? f.descripcio_curta ?? f.descripcion_curta);
+  const descLlarga = clean(f.descripcio_llarga ?? f.descripcion_llarga);
 
   contingutDia.innerHTML = `
     <h2 style="text-align:center;margin:0 0 12px 0;">
-      ${f.titol || ""}
+      ${titol}
     </h2>
 
     ${f.imatge ? `
       <img src="${f.imatge}"
-           alt="${(f.titol || "").replace(/"/g, "&quot;")}"
-           style="width:100%;border-radius:16px;display:block;margin:0 auto 14px auto;">
+           alt="${titol.replace(/"/g, "&quot;")}"
+           style="width:100%;border-radius:16px;display:block;margin:0 auto 10px auto;">
     ` : ""}
+
+    ${autor ? `<div style="text-align:center;font-weight:600;margin:6px 0 12px 0;">${autor}</div>` : ""}
 
     <div style="line-height:1.45">
       ${techHtml}
+      ${lloc ? `<div style="margin-top:10px"><b>Lloc:</b> ${lloc}</div>` : ""}
+      ${credits ? `<div style="margin-top:6px"><b>Crèdits:</b> ${credits}</div>` : ""}
     </div>
 
     ${descCurta ? `<p style="margin-top:14px">${descCurta}</p>` : ""}
