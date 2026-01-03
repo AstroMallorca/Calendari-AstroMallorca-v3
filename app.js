@@ -867,6 +867,9 @@ const meta = (it.category || it.type)
   ? ` <span style="opacity:.7;font-size:.9em">(${[it.category,it.type].filter(Boolean).join(" · ")})</span>`
   : "";
 
+const title = it.title || it.titol || it.nom || "";
+const desc  = it.description || it.descripcio || it.descripció || it.text || it.texto || "";
+
 // 1) Any: primer provam camps; si no hi són, l'extraiem del text "(born 1618)" o "(died 1637)"
 let yv = it.year ?? it.any;
 if (!yv && desc){
@@ -882,8 +885,8 @@ if (desc){
   const name = (parts.shift() || "").trim();
   const rest = parts.length ? ", " + parts.join(",").trim() : "";
 
-  // Si hi ha title (format antic), el respectam, però pel teu JSON nou normalment title és buit
-  if (title && desc){
+  // Si hi ha title (format antic), el respectam
+  if (title){
     line = `${yearPrefix}<b>${title}</b>${desc ? `: ${desc}` : ""}${meta}`;
   } else {
     line = `${yearPrefix}<b>${name}</b>${rest}${meta}`;
