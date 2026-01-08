@@ -99,87 +99,94 @@
       return `${Math.round(x)}%`;
     }
 
-    // Dibuix: terminador real (el·lipse) + anells apogeu/perigeu + mida aparent
-    function renderMoonSVG(opts){
-      const {
-        R_perigeu = 108,
-        R_apogeu  = 96,
-        R_now     = 102,
-        illum = 0.5,        // 0..1
-        waxing = true       // true=creixent (llum a dreta), false=minvant (llum a esquerra)
-      } = opts;
+    // Dibuix: terminador real (el·lipse) + anells apogeu/perigeu + mida function renderMoonSVG(opts){
+  const {
+    R_perigeu = 108,
+    R_apogeu  = 96,
+    R_now     = 102,
+    illum = 0.5,
+    waxing = true
+  } = opts;
 
-      const cx = 120, cy = 120;
-      const R = R_now;
+  const cx = 120, cy = 120;
+  const R = R_now;
 
-      // Terminador real: rx = R * |cos(phi)|, amb cos(phi)=2*illum-1 (phi mesurat des de plena)
-      const cosPhi = (2 * clamp(illum, 0, 1)) - 1; // [-1..1]
-      let rx = Math.abs(cosPhi) * R;               // [0..R]
-      if (rx < 0.001) rx = 0.001;                  // evita arcs degenerats
+  // Terminador real (el·lipse)
+  const cosPhi = (2 * clamp(illum, 0, 1)) - 1;
+  let rx = Math.abs(cosPhi) * R;
+  if (rx < 0.001) rx = 0.001;
 
-      const isGibbous = illum > 0.5;
+  const isGibbous = illum > 0.5;
+  const sweepLimb = waxing ? 1 : 0;
 
-      // Arc del limbe (de dalt a baix). Side depèn de waxing/waning.
-      const sweepLimb = waxing ? 1 : 0;
+  let sweepTerm;
+  if (!isGibbous) sweepTerm = waxing ? 0 : 1;  // crescent
+  else            sweepTerm = waxing ? 1 : 0;  // gibbous
 
-      // Arc del terminador (de baix a dalt).
-      // Canvia segons si és crescent (<50%) o gibbous (>50%)
-      let sweepTerm;
-      if (!isGibbous) {
-        // crescent
-        sweepTerm = waxing ? 0 : 1;
-      } else {
-        // gibbous
-        sweepTerm = waxing ? 1 : 0;
-      }
+  const almostNew  = illum < 0.01;
+  const almostFull = illum > 0.99;
 
-      const almostNew = illum < 0.01;
-      const almostFull = illum > 0.99;
+  // Path de la part il·luminada
+  const pathLit = `
+    M ${cx} ${cy - R}
+    A ${R} ${R} 0 0 ${sweepLimb} ${cx} ${cy + R}
+    A ${rx} ${R} 0 0 ${sweepTerm} ${cx} ${cy - R}
+    Z
+  `;
 
-      // Path de la part il·luminada
-      const pathLit = `
-        M ${cx} ${cy - R}
-        A ${R} ${R} 0 0 ${sweepLimb} ${cx} ${cy + R}
-        A ${rx} ${R} 0 0 ${sweepTerm} ${cx} ${cy - R}
-        Z
-      `;
+  // Ruta de la teva imatge (canvia-la si cal)
+  const IMG = "assets/moon/luna_base.jpg";
 
-      return `
+  return `
 <svg viewBox="0 0 240 240" aria-label="Fase lunar" role="img">
   <defs>
-    <radialGradient id="gMoonLight" cx="35%" cy="35%" r="70%">
-      <stop offset="0%" stop-color="#f2f2f2"/>
-      <stop offset="55%" stop-color="#cfcfcf"/>
-      <stop offset="100%" stop-color="#9f9f9f"/>
-    </radialGradient>
+    <clipPath id="clipDisc">
+      <circle cx="${cx}" cy="${cy}" r="${R}"></circle>
+    </clipPath>
 
-    <radialGradient id="gMoonDark" cx="35%" cy="35%" r="70%">
-      <stop offset="0%" stop-color="#4b4b4b"/>
-      <stop offset="60%" stop-color="#3a3a3a"/>
-      <stop offset="100%" stop-color="#2a2a2a"/>
-    </radialGradient>
+    <!-- Mascara per aplicar ombra només a la part NO il·luminada -->
+    <mask id="maskShadow">
+      <!-- blanc = es veu (ombra), negre = no es veu (llum) -->
+      <rect x="0" y="0" width="240" height="240" fill="black"></rect>
+
+      <!-- Ombram tot el disc... -->
+      <circle cx="${cx}" cy="${cy}" r="${R}" fill="white"></circle>
+
+      <!-- ...excepte la zona il·luminada (la “treiem” amb negre) -->
+      ${almostNew ? "" : `<path d="${pathLit}" fill="black"></path>`}
+    </mask>
+
+    <!-- Mascara per pintar la zona il·luminada amb la imatge tal qual -->
+    <mask id="maskLit">
+      <rect x="0" y="0" width="240" height="240" fill="black"></rect>
+      ${almostFull ? `<circle cx="${cx}" cy="${cy}" r="${R}" fill="white"></circle>`
+                   : (almostNew ? "" : `<path d="${pathLit}" fill="white"></path>`)}
+    </mask>
   </defs>
 
   <!-- Anells de referència -->
   <circle cx="${cx}" cy="${cy}" r="${R_perigeu}" fill="none" stroke="var(--perigeu)" stroke-width="2.5"></circle>
   <circle cx="${cx}" cy="${cy}" r="${R_apogeu}"  fill="none" stroke="var(--apogeu)"  stroke-width="2.5"></circle>
 
-  <!-- Disc fosc base -->
-  <circle cx="${cx}" cy="${cy}" r="${R}" fill="url(#gMoonDark)"></circle>
+  <!-- Base: imatge (disc complet, però enfosquida lleugerament perquè el “lit” destaqui) -->
+  <g clip-path="url(#clipDisc)">
+    <image href="${IMG}" x="${cx-R}" y="${cy-R}" width="${2*R}" height="${2*R}" preserveAspectRatio="xMidYMid slice" opacity="0.75"></image>
+  </g>
 
-  <!-- Part il·luminada real -->
-  ${
-    almostNew
-      ? ``
-      : almostFull
-        ? `<circle cx="${cx}" cy="${cy}" r="${R}" fill="url(#gMoonLight)"></circle>`
-        : `<path d="${pathLit}" fill="url(#gMoonLight)"></path>`
-  }
+  <!-- Zona il·luminada: imatge a opacitat 1 (mateixa imatge, però només a la part lit) -->
+  <g clip-path="url(#clipDisc)" mask="url(#maskLit)">
+    <image href="${IMG}" x="${cx-R}" y="${cy-R}" width="${2*R}" height="${2*R}" preserveAspectRatio="xMidYMid slice" opacity="1"></image>
+  </g>
+
+  <!-- Ombra: un vel negre aplicat només a la part fosca -->
+  <g clip-path="url(#clipDisc)" mask="url(#maskShadow)">
+    <rect x="${cx-R}" y="${cy-R}" width="${2*R}" height="${2*R}" fill="rgba(0,0,0,0.65)"></rect>
+  </g>
 
   <!-- Contorn -->
   <circle cx="${cx}" cy="${cy}" r="${R}" fill="none" stroke="rgba(0,0,0,0.25)" stroke-width="1"></circle>
 </svg>`;
-    }
+}
 
     (function main(){
       const errEl = document.getElementById("err");
