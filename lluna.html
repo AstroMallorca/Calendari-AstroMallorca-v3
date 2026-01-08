@@ -94,10 +94,36 @@
 
     function clamp(x, a, b){ return Math.max(a, Math.min(b, x)); }
     function deg2rad(d){ return d * Math.PI / 180; }
-    function fmtPct(x){
-      if (!Number.isFinite(x)) return "—";
-      return `${Math.round(x)}%`;
-    }
+    function fmtPct(x, decimals = 2){
+  if (!Number.isFinite(x)) return "—";
+  return `${x.toFixed(decimals)}%`;
+}
+function phaseLabelFromDeg(phaseDeg){
+  // Normalitza 0..360
+  const d = ((phaseDeg % 360) + 360) % 360;
+
+  // Tolerància per dir "exacte" (en graus)
+  const tol = 6;
+
+  // Distància angular mínima a un target
+  const angDiff = (a, b) => {
+    const x = ((a - b + 540) % 360) - 180;
+    return Math.abs(x);
+  };
+
+  // Fases “exactes”
+  if (angDiff(d, 0)   <= tol || angDiff(d, 360) <= tol) return "Lluna nova";
+  if (angDiff(d, 90)  <= tol) return "Quart creixent";
+  if (angDiff(d, 180) <= tol) return "Lluna plena";
+  if (angDiff(d, 270) <= tol) return "Quart minvant";
+
+  // Trams
+  if (d > tol && d < 90 - tol)   return "Crescent creixent";
+  if (d > 90 + tol && d < 180 - tol) return "Gibosa creixent";
+  if (d > 180 + tol && d < 270 - tol) return "Gibosa minvant";
+  // resta: entre 270+tol i 360-tol
+  return "Crescent minvant";
+}
 
     // Dibuix: terminador real (el·lipse) + anells apogeu/perigeu + mida function renderMoonSVG(opts){
   function renderMoonSVG(opts){
@@ -230,10 +256,12 @@
         const u = clamp((angArcmin - APog) / (PErig - APog), 0, 1);
         const R_now = R_apogeu + u * (R_perigeu - R_apogeu);
 
-        kpiEl.innerHTML =
-          `<b>Il·luminació:</b> ${fmtPct(illum*100)}\n` +
-          `<b>Fase:</b> ${phaseDeg.toFixed(1)}° (${waxing ? "creixent" : "minvant"})\n` +
-          `<b>Mida aparent:</b> ${angArcmin.toFixed(1)}′`;
+        const label = phaseLabelFromDeg(phaseDeg);
+
+kpiEl.innerHTML =
+  `<b>Il·luminació:</b> ${fmtPct(illum*100, 1)}\n` +
+  `<b>Fase:</b> ${phaseDeg.toFixed(1)}° · ${label}\n` +
+  `<b>Mida aparent:</b> ${angArcmin.toFixed(1)}′`;
 
         metaEl.textContent =
           `Distància geocèntrica: ${Math.round(distKm).toLocaleString("ca-ES")} km · ` +
