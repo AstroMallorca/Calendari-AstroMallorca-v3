@@ -143,7 +143,6 @@ a:active{ opacity:1; }
   <div class="wrap">
     <div class="topbar">
       <a href="#" id="back">← Tornar</a>
-      <button class="btn" id="toggleNight" type="button">🌙 Mode nocturn</button>
     </div>
 
     <div class="header">
@@ -184,23 +183,6 @@ a:active{ opacity:1; }
     document.getElementById("back").addEventListener("click", (e) => {
       e.preventDefault();
       window.history.back();
-    });
-
-    // ==== MODE NOCTURN MANUAL (persistit) ====
-    const NIGHT_KEY = "am_moon_night";
-    const toggleBtn = document.getElementById("toggleNight");
-
-    function applyNight(isNight){
-      document.body.classList.toggle("night", !!isNight);
-      toggleBtn.textContent = isNight ? "☀️ Mode dia" : "🌙 Mode nocturn";
-    }
-    const savedNight = localStorage.getItem(NIGHT_KEY) === "1";
-    applyNight(savedNight);
-
-    toggleBtn.addEventListener("click", () => {
-      const nowNight = !document.body.classList.contains("night");
-      localStorage.setItem(NIGHT_KEY, nowNight ? "1" : "0");
-      applyNight(nowNight);
     });
 
     function parseISODateLocal(iso){
