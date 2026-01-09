@@ -815,7 +815,6 @@ if (!Number.isFinite(day0.getTime())){
   throw new Error("Dia invàlid (dateStr). Revisa ?date=YYYY-MM-DD");
 }
 
-const startSearch = new Date(day0.getTime() - 12*3600*1000);
 
 // Volem: rise dins el dia local (0–24h) i set després (encara que sigui l’endemà)
 const moonScanStart = new Date(day0); // 00:00 del dia
@@ -836,25 +835,12 @@ if (rise){
   );
   set = rs1.set;
 } else {
-  // Si no hi ha rise en 36h, pot ser que la lluna ja sigui damunt a les 00:00:
-  // llavors cercam la primera posta dins les properes 36h.
+  // Si no hi ha rise en 36h, pot ser que la lluna ja sigui damunt a les 00:00
+  // -> agafam la primera posta
   set = rs0.set;
 }
 
-
-// 1) Si tenim rise però no set: cerca la primera posta després de rise
-if (rise && !set){
-  const rs2 = findRiseSetScan(Astronomy.Body.Moon, observer, new Date(rise.getTime()+5*60*1000), 48, 5);
-  set = rs2.set;
-}
-
-// 2) Si tenim set abans de rise (com el teu cas): la posta NO és la correcta.
-//    Cerca una posta després de rise.
-if (rise && set && set.getTime() <= rise.getTime()){
-  const rs3 = findRiseSetScan(Astronomy.Body.Moon, observer, new Date(rise.getTime()+5*60*1000), 48, 5);
-  if (rs3.set) set = rs3.set;
-}
-
+console.log("DEBUG moon graph", { rise, set });
 
 // Transit (màxim) entre rise i set
 let transit = null;
@@ -868,9 +854,6 @@ if (rise && set){
   }
 }
 
-// DEBUG (ara sí que sortirà)
-console.log("DEBUG moon graph", { startSearch, rise, set, transit, altMax });
-
 // Mostram només si tenim rise+set+transit
 if (rise && set && transit){
   chartWrap.style.display = "";
@@ -880,7 +863,8 @@ if (rise && set && transit){
   document.getElementById("chartBox").innerHTML = renderArcChart({ rise, transit, set });
 
   // Temps total damunt horitzó
-  const aboveMs = Math.max(0, set.getTime() - rise.getTime());
+  const aboveMs = aboveHorizonTimeMs(Astronomy.Body.Moon, observer, rise, set, 2, MOON_EVENT_ALT);
+
   document.getElementById("sAbove").textContent = fmtDurationHM(aboveMs);
 
   // === Nit: sunset(dia) -> sunrise(dia+1) (també per escaneig) ===
