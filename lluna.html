@@ -621,7 +621,7 @@ function toJulianUtc(x){
 
         box.innerHTML = renderMoonSVG({ R_perigeu, R_apogeu, R_now, illum, waxing });
 
-        // ======= Gràfica + temps total (NET) =======
+// ======= Gràfica + temps total (NET) =======
 const chartWrap = document.getElementById("chartWrap");
 const statsOne  = document.getElementById("statsOne");
 chartWrap.style.display = "none";
@@ -633,9 +633,11 @@ const startDate = new Date(base.getTime() - 18*3600*1000);
 
 const metersAboveGround = 0;
 
-const startJD = toJulianUtc(startDate);
-const startTime = { ut: startJD };   // ✅ AstroTime explícit
+// startTime robust (AstroTime explícit via {ut: ...})
+const startJD   = toJulianUtc(startDate);
+const startTime = { ut: startJD };
 
+// 1) RISE
 const riseEv = Astronomy.SearchRiseSet(
   Astronomy.Body.Moon,
   observer,
@@ -644,34 +646,35 @@ const riseEv = Astronomy.SearchRiseSet(
   2,
   metersAboveGround
 );
-
-
 const rise = evToDate(riseEv);
 
 if (rise){
   // 2) SET
-const afterRiseJD = toJulianUtc(afterRiseDate);
-const afterRiseTime = { ut: afterRiseJD };   // ✅
+  const afterRiseDate = new Date(rise.getTime() + 60*1000);
+  const afterRiseJD   = toJulianUtc(afterRiseDate);
+  const afterRiseTime = { ut: afterRiseJD };
 
-const setEv = Astronomy.SearchRiseSet(
-  Astronomy.Body.Moon,
-  observer,
-  -1,
-  afterRiseTime,
-  2,
-  metersAboveGround
-);
+  const setEv = Astronomy.SearchRiseSet(
+    Astronomy.Body.Moon,
+    observer,
+    -1,
+    afterRiseTime,
+    2,
+    metersAboveGround
+  );
+  const set = evToDate(setEv);
 
-const riseJD = toJulianUtc(rise);
-const riseTime = { ut: riseJD };             // ✅
+  if (set){
+    // 3) TRANSIT
+    const riseJD   = toJulianUtc(rise);
+    const riseTime = { ut: riseJD };
 
-const trEv = Astronomy.SearchTransit(
-  Astronomy.Body.Moon,
-  observer,
-  riseTime,
-  2
-);
-
+    const trEv = Astronomy.SearchTransit(
+      Astronomy.Body.Moon,
+      observer,
+      riseTime,
+      2
+    );
     const transit = evToDate(trEv);
 
     if (transit){
