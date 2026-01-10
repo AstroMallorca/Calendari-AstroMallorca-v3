@@ -218,16 +218,17 @@ a:active{ opacity:1; }
       <div class="k">Distància:</div><div class="v" id="kDist">—</div>
     </div>
 
-    <!-- ===== Gràfica ===== -->
-    <div class="chartWrap" id="chartWrap" style="display:none;">
-      <div class="chartTitle" id="chartTitle">Altura max: —</div>
-      <div class="chartBox" id="chartBox"></div>
-    </div>
+<!-- ===== Resum (sense gràfic) ===== -->
+<div class="chartWrap" id="chartWrap" style="display:none;">
+  <div class="chartTitle" id="chartTitle">Altura max: —</div>
 
-    <!-- ===== Resum inferior ===== -->
-    <div class="stats" id="stats" style="display:none;">
-      <div class="k">Temps total damunt l’horitzó:</div><div class="v" id="sAbove">—</div>
-    </div>
+  <div class="kpiGrid" style="max-width:520px; margin-top:10px;">
+    <div class="k">Sortida:</div><div class="v" id="kRise">—</div>
+    <div class="k">Posta:</div><div class="v" id="kSet">—</div>
+    <div class="k">Temps total damunt l’horitzó:</div><div class="v" id="kAbove">—</div>
+  </div>
+</div>
+
 
     <div class="err" id="err"></div>
   </div>
@@ -829,10 +830,9 @@ function renderArcChart({ rise, transit, set, altMaxDeg }){
 
 // ======= Gràfica + resum inferior =======
 const chartWrap = document.getElementById("chartWrap");
-const statsEl   = document.getElementById("stats");
 
 chartWrap.style.display = "none";
-statsEl.style.display = "none";
+
 
 const day0 = new Date(day);
 day0.setHours(0,0,0,0);
@@ -880,18 +880,22 @@ if (rise && set){
   }
 }
 
-// Mostram només si tenim rise+set+transit
 if (rise && set && transit){
   chartWrap.style.display = "";
+
+  const altTxt = Number.isFinite(altMax) ? Math.round(altMax) + "º" : "—";
+
+  // línia principal
   document.getElementById("chartTitle").textContent =
-    `Altura max: ${Number.isFinite(altMax) ? Math.round(altMax) + "°" : "—"}`;
+    `Altura max: ${altTxt}    hora: ${fmtTimeHM(transit)}`;
 
-  document.getElementById("chartBox").innerHTML = renderArcChart({ rise, transit, set });
+  // sortida / posta
+  document.getElementById("kRise").textContent = fmtTimeHM(rise);
+  document.getElementById("kSet").textContent  = fmtTimeHM(set);
 
-  // Temps total damunt horitzó
+  // temps total damunt l’horitzó (mateix càlcul que ja tenies)
   const aboveMs = aboveHorizonTimeMs(Astronomy.Body.Moon, observer, rise, set, 2, MOON_EVENT_ALT);
-  document.getElementById("sAbove").textContent = fmtDurationHM(aboveMs);
-  statsEl.style.display = "";
+  document.getElementById("kAbove").textContent = fmtDurationHM(aboveMs);
 }
 
       }catch(e){
