@@ -618,76 +618,66 @@ function evToDate(ev){
 
     // ======= Gràfica minimalista (SVG) =======
 function renderArcChart({ rise, transit, set, altMaxDeg }){
-  // Aspecte com la imatge: arc blau + base negra + 3 cercles
-  const W = 820;     // ample virtual per fer-ho “suau”
-  const H = 240;
+  // Aparença fixa tipus "semicercle" com la imatge
+  const W = 520;
+  const H = 220;
 
-  const padX  = 54;
-  const baseY = 170;
+  const padX  = 34;            // marges laterals
+  const baseY = 150;           // línia horitzó (baseline)
+  const peakY = 28;            // punt més alt de l’arc (FIX)
 
   if (!rise || !set || !transit) return "";
 
-  const t0 = rise.getTime();
-  const t1 = set.getTime();
-  const tc = transit.getTime();
-  if (!(t1 > t0)) return "";
+  // x FIXES (arc sempre igual)
+  const xL = padX;
+  const xR = W - padX;
+  const xM = (xL + xR) / 2;
 
-  const x = (t) => padX + ((t - t0) / (t1 - t0)) * (W - 2*padX);
+  // Control points per un arc suau i simètric (sempre igual)
+  // (això fa un semicercle "bonic" i constant)
+  const c1x = xL + (xR - xL) * 0.18;
+  const c2x = xR - (xR - xL) * 0.18;
 
-  const xR = x(t0), xT = x(tc), xS = x(t1);
+  const arcPath = `M ${xL} ${baseY} C ${c1x} ${peakY}, ${c2x} ${peakY}, ${xR} ${baseY}`;
 
-  // “alçada” del vèrtex (com a la imatge, ben amunt)
-  const peakY = 32;
+  // Estil com la teva imatge: arc blau + baseline negre
+  const arcStroke  = "#0B5BD3";
+  const baseStroke = "#000000";
 
-  // Estil
-  const BLUE = "#0B61D8";  // blau viu com a la captura
-  const arcW = 10;         // gruix arc
-  const baseW = 12;        // gruix base
-  const ringW = 6;         // gruix contorn cercles
-  const rNode = 22;        // radi cercles
-
-  const d = `M ${xR} ${baseY} Q ${xT} ${peakY} ${xS} ${baseY}`;
-
-  // Textos
+  // Textos (això sí, amb les dades reals)
   const altTxt = Number.isFinite(altMaxDeg) ? `${Math.round(altMaxDeg)}°` : "—";
-  const trTxt  = fmtTimeHM(transit);
+  const tRise  = fmtTimeHM(rise);
+  const tSet   = fmtTimeHM(set);
+  const tTran  = fmtTimeHM(transit);
 
   return `
 <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Trajectòria de la Lluna">
-  <!-- Arc blau -->
-  <path d="${d}" fill="none" stroke="${BLUE}" stroke-width="${arcW}"
-        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- baseline (horitzó) -->
+  <line x1="${xL}" y1="${baseY}" x2="${xR}" y2="${baseY}"
+        stroke="${baseStroke}" stroke-width="10" stroke-linecap="round" />
 
-  <!-- Nodes (cercles) -->
-  <circle cx="${xR}" cy="${baseY}" r="${rNode}" fill="#fff" stroke="${BLUE}" stroke-width="${ringW}"></circle>
-  <circle cx="${xT}" cy="${peakY}" r="${rNode}" fill="#fff" stroke="${BLUE}" stroke-width="${ringW}"></circle>
-  <circle cx="${xS}" cy="${baseY}" r="${rNode}" fill="#fff" stroke="${BLUE}" stroke-width="${ringW}"></circle>
+  <!-- arc (sempre igual) -->
+  <path d="${arcPath}" fill="none" stroke="${arcStroke}" stroke-width="10" stroke-linecap="round" />
 
-  <!-- Base negra -->
-  <line x1="${padX-18}" y1="${baseY}" x2="${W-(padX-18)}" y2="${baseY}"
-        stroke="#000" stroke-width="${baseW}" stroke-linecap="round"/>
+  <!-- cercles (extrems i màxim) -->
+  <circle cx="${xL}" cy="${baseY}" r="22" fill="#fff" stroke="${arcStroke}" stroke-width="8"></circle>
+  <circle cx="${xM}" cy="${peakY}" r="22" fill="#fff" stroke="${arcStroke}" stroke-width="8"></circle>
+  <circle cx="${xR}" cy="${baseY}" r="22" fill="#fff" stroke="${arcStroke}" stroke-width="8"></circle>
 
-  <!-- Text dalt (centrat) -->
-  <text x="${xT}" y="${88}" text-anchor="middle"
-        font-size="30" font-weight="700" fill="#111">
+  <!-- text central (dins l'arc) -->
+  <text x="${xM}" y="${baseY-78}" text-anchor="middle" font-size="28" fill="#000">
     Altura max: ${altTxt}
   </text>
-  <text x="${xT}" y="${126}" text-anchor="middle"
-        font-size="34" font-weight="400" fill="#111">
-    ${trTxt}
+  <text x="${xM}" y="${baseY-42}" text-anchor="middle" font-size="30" fill="#000">
+    ${tTran}
   </text>
 
-  <!-- Hores a baix (esquerra i dreta) -->
-  <text x="${xR}" y="${H-10}" text-anchor="start"
-        font-size="34" fill="#111">
-    ${fmtTimeHM(rise)}
-  </text>
-  <text x="${xS}" y="${H-10}" text-anchor="end"
-        font-size="34" fill="#111">
-    ${fmtTimeHM(set)}
-  </text>
+  <!-- hores rise/set als extrems -->
+  <text x="${xL}" y="${baseY+52}" text-anchor="middle" font-size="34" fill="#000">${tRise}</text>
+  <text x="${xR}" y="${baseY+52}" text-anchor="middle" font-size="34" fill="#000">${tSet}</text>
 </svg>`;
 }
+
 
 
     // ======= SVG LLUNA (fase + mida) =======
