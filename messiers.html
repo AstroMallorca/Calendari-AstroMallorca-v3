@@ -347,7 +347,7 @@ const enriched = catalog.map(obj => {
       h.textContent = `${o.id} · ${o.name}`;
       const sub = document.createElement("p");
       sub.className = "sub";
-      sub.textContent = (o.desc || "");
+      sub.textContent = (o.desc && o.desc.trim()) ? o.desc.trim() : (o.type || "");
 
       const tag = document.createElement("div");
       tag.className = "tag";
