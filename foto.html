@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fotografia del mes</title>
+  <link rel="icon" href="assets/icons/astromallorca.png">
+
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#111111;
+      --muted:rgba(0,0,0,.65);
+      --border:rgba(0,0,0,.18);
+      --card: rgba(0,0,0,0.03);
+    }
+    body.nocturn{
+      --bg:#000000;
+      --text:#ff2a2a;
+      --muted:rgba(255,42,42,.75);
+      --border:rgba(255,42,42,.35);
+      --card: rgba(255,42,42,0.08);
+    }
+
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      padding: 18px 16px 28px;
+    }
+
+    a.back{
+      color:var(--text);
+      text-decoration:none;
+      display:inline-block;
+      margin: 6px 0 8px;
+      font-size: 18px;
+    }
+
+    h1{
+      margin: 0 0 6px;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+
+    .sub{
+      margin: 0 0 14px;
+      color: var(--muted);
+    }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 14px;
+    }
+
+    img{
+      width:100%;
+      height:auto;
+      border-radius: 16px;
+      display:block;
+    }
+  </style>
+</head>
+<body>
+
+  <a class="back" href="index.html">← Tornar</a>
+  <h1>Fotografia del mes</h1>
+  <p class="sub" id="subtitle">—</p>
+
+  <div class="card">
+    <img id="photo" alt="Foto del mes">
+  </div>
+
+  <script>
+    // Hereta mode nocturn de l'app
+    try{
+      const apply = () => {
+        const isNocturn = localStorage.getItem("nocturn") === "1";
+        document.body.classList.toggle("nocturn", isNocturn);
+      };
+      apply();
+      window.addEventListener("storage", (e) => {
+        if (e.key === "nocturn") apply();
+      });
+    }catch(e){}
+
+    // De moment: mostra el mes passat per URL, i una imatge per defecte
+    const p = new URLSearchParams(location.search);
+    const ym = p.get("ym") || "2026-01"; // format YYYY-MM
+    document.getElementById("subtitle").textContent = `Mes: ${ym}`;
+    document.getElementById("photo").src = `assets/months/2026/${ym}-01.png`.replace("-01.png", ".png"); // si tens 2026-01.png
+    document.getElementById("photo").src = `assets/months/2026/${ym}.png`;
+  </script>
+</body>
+</html>
