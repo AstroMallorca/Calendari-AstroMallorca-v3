@@ -3,2298 +3,2697 @@
     "mes": "gener",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 2,
     "tipus": "asteroide",
-    "descripcio": "Harmonia en oposició"
+    "descripcio": "Harmonia en oposició",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 2,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,5° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,5° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 4° al nord de Júpiter"
+    "descripcio": "La Lluna 4° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 3,
     "tipus": "meteors",
-    "descripcio": "Màxim de les Quadràntides"
+    "descripcio": "Màxim de les Quadràntides",
+    "codi": "assets/icons/special/pluja_meteors.png"
   },
   {
     "mes": "gener",
     "dia": 3,
     "tipus": "terra",
-    "descripcio": "La Terra en el periheli"
+    "descripcio": "La Terra en el periheli",
+    "codi": "assets/icons/special/periheli.png"
   },
   {
     "mes": "gener",
     "dia": 6,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al nord de Règul (ocultació)"
+    "descripcio": "La Lluna 0,4° al nord de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 6,
     "tipus": "planeta",
-    "descripcio": "Mercuri en afeli"
+    "descripcio": "Mercuri en afeli",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 6,
     "tipus": "planeta",
-    "descripcio": "Venus en conjunció superior amb el Sol"
+    "descripcio": "Venus en conjunció superior amb el Sol",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 9,
     "tipus": "planeta",
-    "descripcio": "Mart en conjunció amb el Sol"
+    "descripcio": "Mart en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 10,
     "tipus": "planeta",
-    "descripcio": "Júpiter en oposició"
+    "descripcio": "Júpiter en oposició",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 14,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,7° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,7° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud de Metis"
+    "descripcio": "La Lluna 2° al sud de Metis",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 18,
     "tipus": "asteroide",
-    "descripcio": "Astrea en conjunció amb el Sol"
+    "descripcio": "Astrea en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 21,
     "tipus": "planeta",
-    "descripcio": "Mercuri en conjunció superior amb el Sol"
+    "descripcio": "Mercuri en conjunció superior amb el Sol",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 22,
     "tipus": "planeta",
-    "descripcio": "Venus en afeli"
+    "descripcio": "Venus en afeli",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 23,
     "tipus": "lluna",
-    "descripcio": "La Lluna 4° al nord de Saturn"
+    "descripcio": "La Lluna 4° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 26,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 27,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,0° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 1,0° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 27,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 27,
     "tipus": "asteroide",
-    "descripcio": "Laetitia en oposició"
+    "descripcio": "Laetitia en oposició",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 28,
     "tipus": "asteroide",
-    "descripcio": "Vesta en conjunció amb el Sol"
+    "descripcio": "Vesta en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 29,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,6° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,6° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 29,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "gener",
     "dia": 31,
     "tipus": "lluna",
-    "descripcio": "La Lluna 4° al nord de Júpiter"
+    "descripcio": "La Lluna 4° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,3° al nord de Règul (ocultació)"
+    "descripcio": "La Lluna 0,3° al nord de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 4,
     "tipus": "planeta",
-    "descripcio": "Urà estacionari en ascensió recta"
+    "descripcio": "Urà estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 9,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,6° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,6° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,9° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 15,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,7° al sud de Metis (ocultació)"
+    "descripcio": "La Lluna 0,7° al sud de Metis (ocultació)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 16,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,7° al sud de Mart (ocultació)"
+    "descripcio": "La Lluna 0,7° al sud de Mart (ocultació)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 16,
     "tipus": "planeta",
-    "descripcio": "Saturn 0,9° al sud de Neptú"
+    "descripcio": "Saturn 0,9° al sud de Neptú",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 17,
     "tipus": "eclipsi",
-    "descripcio": "Eclipsi anular de Sol"
+    "descripcio": "Eclipsi anular de Sol",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,1° al sud de Mercuri (ocultació)"
+    "descripcio": "La Lluna 0,1° al sud de Mercuri (ocultació)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al nord de Venus"
+    "descripcio": "La Lluna 2° al nord de Venus",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 19,
     "tipus": "planeta",
-    "descripcio": "Mercuri en periheli"
+    "descripcio": "Mercuri en periheli",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 19,
     "tipus": "planeta",
-    "descripcio": "Màxima elongació est de Mercuri (18,1°)"
+    "descripcio": "Màxima elongació est de Mercuri (18,1°)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 20,
     "tipus": "lluna",
-    "descripcio": "La Lluna 4° al nord de Neptú"
+    "descripcio": "La Lluna 4° al nord de Neptú",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,1° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 1,1° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 25,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 25,
     "tipus": "planeta",
-    "descripcio": "Mercuri estacionari en ascensió recta"
+    "descripcio": "Mercuri estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 26,
     "tipus": "planeta",
-    "descripcio": "Mercuri 5° al nord de Venus"
+    "descripcio": "Mercuri 5° al nord de Venus",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 26,
     "tipus": "asteroide",
-    "descripcio": "Partènope en oposició"
+    "descripcio": "Partènope en oposició",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 27,
     "tipus": "asteroide",
-    "descripcio": "Iris en oposició"
+    "descripcio": "Iris en oposició",
+    "codi": ""
   },
   {
     "mes": "febrer",
     "dia": 27,
     "tipus": "lluna",
-    "descripcio": "La Lluna 4° al nord de Júpiter"
+    "descripcio": "La Lluna 4° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 2,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,3° al nord de Règul (ocultació)"
+    "descripcio": "La Lluna 0,3° al nord de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 2,
     "tipus": "asteroide",
-    "descripcio": "Pal·les en conjunció amb el Sol"
+    "descripcio": "Pal·les en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 3,
     "tipus": "eclipsi",
-    "descripcio": "Eclipsi total de Lluna"
+    "descripcio": "Eclipsi total de Lluna",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 7,
     "tipus": "planeta",
-    "descripcio": "Mercuri en conjunció inferior amb el Sol"
+    "descripcio": "Mercuri en conjunció inferior amb el Sol",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 8,
     "tipus": "planeta",
-    "descripcio": "Venus 1,0° al nord de Saturn"
+    "descripcio": "Venus 1,0° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 10,
     "tipus": "planeta",
-    "descripcio": "Màxim acostament de Mercuri a la Terra"
+    "descripcio": "Màxim acostament de Mercuri a la Terra",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 11,
     "tipus": "planeta",
-    "descripcio": "Júpiter estacionari en ascensió recta"
+    "descripcio": "Júpiter estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 13,
     "tipus": "asteroide",
-    "descripcio": "Fortuna en oposició"
+    "descripcio": "Fortuna en oposició",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,8° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,8° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 15,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al nord de Metis (ocultació)"
+    "descripcio": "La Lluna 0,9° al nord de Metis (ocultació)",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud de Mercuri"
+    "descripcio": "La Lluna 2° al sud de Mercuri",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 19,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 19,
     "tipus": "planeta",
-    "descripcio": "Mercuri estacionari en ascensió recta"
+    "descripcio": "Mercuri estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 20,
     "tipus": "estacio",
-    "descripcio": "Inici de la primavera a l’hemisferi boreal"
+    "descripcio": "Inici de la primavera a l’hemisferi boreal",
+    "codi": "assets/icons/special/equinocci_primavera.png"
   },
   {
     "mes": "març",
     "dia": 20,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord de Venus"
+    "descripcio": "La Lluna 5° al nord de Venus",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 21,
     "tipus": "asteroide",
-    "descripcio": "Masàlia en oposició"
+    "descripcio": "Masàlia en oposició",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 22,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 22,
     "tipus": "planeta",
-    "descripcio": "Neptú en conjunció amb el Sol"
+    "descripcio": "Neptú en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 23,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 0,9° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 23,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 25,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 25,
     "tipus": "asteroide",
-    "descripcio": "Eunòmia en oposició"
+    "descripcio": "Eunòmia en oposició",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 25,
     "tipus": "planeta",
-    "descripcio": "Saturn en conjunció amb el Sol"
+    "descripcio": "Saturn en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 26,
     "tipus": "planeta",
-    "descripcio": "Mart en periheli"
+    "descripcio": "Mart en periheli",
+    "codi": ""
   },
   {
     "mes": "març",
     "dia": 26,
     "tipus": "lluna",
-    "descripcio": "La Lluna 4° al nord de Júpiter"
+    "descripcio": "La Lluna 4° al nord de Júpiter",
+    "codi": ""
+  },
+  {
+    "mes": "març",
+    "dia": 29,
+    "tipus": "hora",
+    "descripcio": "Canvi Horari",
+    "codi": "assets/icons/special/canvi_horari.png",
+    "hora": "2:00"
   },
   {
     "mes": "març",
     "dia": 29,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,3° al nord de Règul (ocultació)"
+    "descripcio": "La Lluna 0,3° al nord de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 2,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 3,
     "tipus": "planeta",
-    "descripcio": "Màxima elongació oest de Mercuri (27,8°)"
+    "descripcio": "Màxima elongació oest de Mercuri (27,8°)",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 4,
     "tipus": "planeta",
-    "descripcio": "Mercuri en afeli"
+    "descripcio": "Mercuri en afeli",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 6,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 9,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,6° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,6° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 12,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord de Metis"
+    "descripcio": "La Lluna 3° al nord de Metis",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud d’Astrea"
+    "descripcio": "La Lluna 2° al sud d’Astrea",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 13,
     "tipus": "planeta",
-    "descripcio": "Mart 0,3° al nord de Neptú"
+    "descripcio": "Mart 0,3° al nord de Neptú",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 15,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud de Pal·les"
+    "descripcio": "La Lluna 2° al sud de Pal·les",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 15,
     "tipus": "planeta",
-    "descripcio": "Urà 4° al sud d’Alcióne"
+    "descripcio": "Urà 4° al sud d’Alcióne",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 16,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord de Saturn"
+    "descripcio": "La Lluna 5° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 16,
     "tipus": "planeta",
-    "descripcio": "Mercuri 1,4° al sud de Neptú"
+    "descripcio": "Mercuri 1,4° al sud de Neptú",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 19,
     "tipus": "asteroide",
-    "descripcio": "Egèria en oposició"
+    "descripcio": "Egèria en oposició",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 19,
     "tipus": "asteroide",
-    "descripcio": "Euterpe en conjunció amb el Sol"
+    "descripcio": "Euterpe en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 19,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,8° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 0,8° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 19,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 19,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord de Venus"
+    "descripcio": "La Lluna 5° al nord de Venus",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 19,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 20,
     "tipus": "planeta",
-    "descripcio": "Mart 1,3° al nord de Saturn"
+    "descripcio": "Mart 1,3° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 20,
     "tipus": "planeta",
-    "descripcio": "Mercuri 0,5° al sud de Saturn"
+    "descripcio": "Mercuri 0,5° al sud de Saturn",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 20,
     "tipus": "planeta",
-    "descripcio": "Mercuri 2° al sud de Mart"
+    "descripcio": "Mercuri 2° al sud de Mart",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 21,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,6° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,6° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 22,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord de Júpiter"
+    "descripcio": "La Lluna 3° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 22,
     "tipus": "meteors",
-    "descripcio": "Màxim de les Lírides"
+    "descripcio": "Màxim de les Lírides",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 23,
     "tipus": "planeta",
-    "descripcio": "Venus 4° al sud d’Alcióne"
+    "descripcio": "Venus 4° al sud d’Alcióne",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 24,
     "tipus": "planeta",
-    "descripcio": "Venus 0,8° al nord d’Urà"
+    "descripcio": "Venus 0,8° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "abril",
     "dia": 26,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al nord de Règul (ocultació)"
+    "descripcio": "La Lluna 0,2° al nord de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 3,
     "tipus": "planeta",
-    "descripcio": "Venus 7° al nord d’Aldebaran"
+    "descripcio": "Venus 7° al nord d’Aldebaran",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 4,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 4,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 6,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,5° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,5° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 6,
     "tipus": "meteors",
-    "descripcio": "Màxim de les η-Aquàrids"
+    "descripcio": "Màxim de les η-Aquàrids",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 9,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud d’Astrea (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud d’Astrea (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 12,
     "tipus": "planeta",
-    "descripcio": "Neptú 3° al sud de Pal·les"
+    "descripcio": "Neptú 3° al sud de Pal·les",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 12,
     "tipus": "planeta",
-    "descripcio": "Venus 4° al sud d’Elnath"
+    "descripcio": "Venus 4° al sud d’Elnath",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 14,
     "tipus": "sol",
-    "descripcio": "El Sol 0,2° al sud de Mercuri (ocultació)"
+    "descripcio": "El Sol 0,2° al sud de Mercuri (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 14,
     "tipus": "planeta",
-    "descripcio": "Mercuri en conjunció superior amb el Sol"
+    "descripcio": "Mercuri en conjunció superior amb el Sol",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 15,
     "tipus": "planeta",
-    "descripcio": "Venus en periheli"
+    "descripcio": "Venus en periheli",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 15,
     "tipus": "asteroide",
-    "descripcio": "Ceres en conjunció amb el Sol"
+    "descripcio": "Ceres en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 15,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord de Mart"
+    "descripcio": "La Lluna 5° al nord de Mart",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 16,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 18,
     "tipus": "planeta",
-    "descripcio": "Mercuri en periheli"
+    "descripcio": "Mercuri en periheli",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,9° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 19,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord de Venus"
+    "descripcio": "La Lluna 3° al nord de Venus",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 20,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord de Júpiter"
+    "descripcio": "La Lluna 3° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 22,
     "tipus": "sol",
-    "descripcio": "El Sol 0,2° al nord d’Urà (ocultació)"
+    "descripcio": "El Sol 0,2° al nord d’Urà (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 22,
     "tipus": "planeta",
-    "descripcio": "Mercuri 7° al nord d’Aldebaran"
+    "descripcio": "Mercuri 7° al nord d’Aldebaran",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 22,
     "tipus": "planeta",
-    "descripcio": "Urà en conjunció amb el Sol"
+    "descripcio": "Urà en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 23,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 23,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,1° al sud de Règul (ocultació)"
+    "descripcio": "La Lluna 0,1° al sud de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 28,
     "tipus": "planeta",
-    "descripcio": "Mercuri 3° al sud d’Elnath"
+    "descripcio": "Mercuri 3° al sud d’Elnath",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 29,
     "tipus": "asteroide",
-    "descripcio": "Amfitrite en oposició"
+    "descripcio": "Amfitrite en oposició",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 31,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,2° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 31,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "maig",
     "dia": 31,
     "tipus": "planeta",
-    "descripcio": "Venus 3° al nord d’Higiea"
+    "descripcio": "Venus 3° al nord d’Higiea",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 2,
     "tipus": "asteroide",
-    "descripcio": "Juno estacionari en ascensió recta"
+    "descripcio": "Juno estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 4,
     "tipus": "planeta",
-    "descripcio": "Júpiter 6° al sud de Pòl·lux"
+    "descripcio": "Júpiter 6° al sud de Pòl·lux",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,8° al nord d’Astrea (ocultació)"
+    "descripcio": "La Lluna 0,8° al nord d’Astrea (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 8,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 8,
     "tipus": "planeta",
-    "descripcio": "Venus 5° al sud de Pòl·lux"
+    "descripcio": "Venus 5° al sud de Pòl·lux",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 9,
     "tipus": "planeta",
-    "descripcio": "Venus 2° al nord de Júpiter"
+    "descripcio": "Venus 2° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "La Lluna 6° al nord de Saturn"
+    "descripcio": "La Lluna 6° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 12,
     "tipus": "lluna",
-    "descripcio": "La Lluna 6° al nord de Mart"
+    "descripcio": "La Lluna 6° al nord de Mart",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,8° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 0,8° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 13,
     "tipus": "planeta",
-    "descripcio": "Saturn 0,7° al sud de Pal·les"
+    "descripcio": "Saturn 0,7° al sud de Pal·les",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 14,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 15,
     "tipus": "asteroide",
-    "descripcio": "Irene en oposició"
+    "descripcio": "Irene en oposició",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 15,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 15,
     "tipus": "planeta",
-    "descripcio": "Màxima elongació est de Mercuri (24,5°)"
+    "descripcio": "Màxima elongació est de Mercuri (24,5°)",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 16,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al nord de Mercuri"
+    "descripcio": "La Lluna 2° al nord de Mercuri",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 16,
     "tipus": "planeta",
-    "descripcio": "Mercuri 2° al nord d’Higiea"
+    "descripcio": "Mercuri 2° al nord d’Higiea",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 17,
     "tipus": "asteroide",
-    "descripcio": "Hebe en conjunció amb el Sol"
+    "descripcio": "Hebe en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al nord de Venus (ocultació)"
+    "descripcio": "La Lluna 0,2° al nord de Venus (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al nord de Júpiter"
+    "descripcio": "La Lluna 2° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 19,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud de Règul (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 21,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 21,
     "tipus": "estacio",
-    "descripcio": "Inici de l’estiu a l’hemisferi boreal"
+    "descripcio": "Inici de l’estiu a l’hemisferi boreal",
+    "codi": "assets/icons/special/solstici_estiu.png"
   },
   {
     "mes": "juny",
     "dia": 23,
     "tipus": "planeta",
-    "descripcio": "Mercuri 7° al sud de Pòl·lux"
+    "descripcio": "Mercuri 7° al sud de Pòl·lux",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 27,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,3° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,3° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 27,
     "tipus": "planeta",
-    "descripcio": "Mart 4° al sud d’Alcióne"
+    "descripcio": "Mart 4° al sud d’Alcióne",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 28,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 28,
     "tipus": "asteroide",
-    "descripcio": "Victòria en conjunció amb el Sol"
+    "descripcio": "Victòria en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 29,
     "tipus": "lluna",
-    "descripcio": "Lluna plena (dia 30 hora oficial)"
+    "descripcio": "Lluna plena (dia 30 hora oficial)",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 29,
     "tipus": "planeta",
-    "descripcio": "Mercuri estacionari en ascensió recta"
+    "descripcio": "Mercuri estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "juny",
     "dia": 30,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,2° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 1,
     "tipus": "planeta",
-    "descripcio": "Mercuri en afeli"
+    "descripcio": "Mercuri en afeli",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 2,
     "tipus": "planeta",
-    "descripcio": "Mercuri 2° al sud d’Higiea"
+    "descripcio": "Mercuri 2° al sud d’Higiea",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 4,
     "tipus": "planeta",
-    "descripcio": "Mart 0,1° al sud d’Urà"
+    "descripcio": "Mart 0,1° al sud d’Urà",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 5,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al nord d’Astrea"
+    "descripcio": "La Lluna 2° al nord d’Astrea",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 6,
     "tipus": "terra",
-    "descripcio": "La Terra en l’afeli"
+    "descripcio": "La Terra en l’afeli",
+    "codi": "assets/icons/special/afeli.png"
   },
   {
     "mes": "juliol",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord de Neptú"
+    "descripcio": "La Lluna 5° al nord de Neptú",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 7° al nord de Saturn"
+    "descripcio": "La Lluna 7° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 8,
     "tipus": "planeta",
-    "descripcio": "Neptú estacionari en ascensió recta"
+    "descripcio": "Neptú estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 9,
     "tipus": "planeta",
-    "descripcio": "Venus 1,1° al nord de Règul"
+    "descripcio": "Venus 1,1° al nord de Règul",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,1° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 1,1° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 10,
     "tipus": "planeta",
-    "descripcio": "Màxim acostament de Mercuri a la Terra"
+    "descripcio": "Màxim acostament de Mercuri a la Terra",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord de Mart"
+    "descripcio": "La Lluna 5° al nord de Mart",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 12,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,9° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 13,
     "tipus": "planeta",
-    "descripcio": "Mercuri en conjunció inferior amb el Sol"
+    "descripcio": "Mercuri en conjunció inferior amb el Sol",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 14,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 14,
     "tipus": "planeta",
-    "descripcio": "Mart 5° al nord d’Aldebaran"
+    "descripcio": "Mart 5° al nord d’Aldebaran",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 15,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al nord de Júpiter"
+    "descripcio": "La Lluna 2° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,5° al sud de Règul (ocultació)"
+    "descripcio": "La Lluna 0,5° al sud de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud de Venus"
+    "descripcio": "La Lluna 2° al sud de Venus",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord d’Iris"
+    "descripcio": "La Lluna 3° al nord d’Iris",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 21,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 23,
     "tipus": "planeta",
-    "descripcio": "Mercuri estacionari en ascensió recta"
+    "descripcio": "Mercuri estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 24,
     "tipus": "planeta",
-    "descripcio": "Mart en node ascendent"
+    "descripcio": "Mart en node ascendent",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 25,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 27,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,2° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 27,
     "tipus": "planeta",
-    "descripcio": "Saturn estacionari en ascensió recta"
+    "descripcio": "Saturn estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 29,
     "tipus": "planeta",
-    "descripcio": "Júpiter en conjunció amb el Sol"
+    "descripcio": "Júpiter en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 29,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 31,
     "tipus": "planeta",
-    "descripcio": "Mart 5° al sud d’Elnath"
+    "descripcio": "Mart 5° al sud d’Elnath",
+    "codi": ""
   },
   {
     "mes": "juliol",
     "dia": 31,
     "tipus": "meteors",
-    "descripcio": "Màxim de les δ-Aquàrids"
+    "descripcio": "Màxim de les δ-Aquàrids",
+    "codi": "assets/icons/special/pluja_meteors.png"
   },
   {
     "mes": "agost",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord d’Astrea"
+    "descripcio": "La Lluna 3° al nord d’Astrea",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 2,
     "tipus": "planeta",
-    "descripcio": "Màxima elongació oest de Mercuri (19,5°)"
+    "descripcio": "Màxima elongació oest de Mercuri (19,5°)",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord de Neptú"
+    "descripcio": "La Lluna 5° al nord de Neptú",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 4,
     "tipus": "lluna",
-    "descripcio": "La Lluna 7° al nord de Saturn"
+    "descripcio": "La Lluna 7° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 6,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 6,
     "tipus": "planeta",
-    "descripcio": "Mercuri 8° al sud de Pòl·lux"
+    "descripcio": "Mercuri 8° al sud de Pòl·lux",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,1° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 1,1° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 8,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,7° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,7° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 8,
     "tipus": "planeta",
-    "descripcio": "Mart 1,4° al nord de Ceres"
+    "descripcio": "Mart 1,4° al nord de Ceres",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 9,
     "tipus": "lluna",
-    "descripcio": "La Lluna 4° al nord de Mart"
+    "descripcio": "La Lluna 4° al nord de Mart",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al nord de Mercuri"
+    "descripcio": "La Lluna 2° al nord de Mercuri",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 12,
     "tipus": "eclipsi",
-    "descripcio": "Eclipsi total de Sol (visible a Espanya)"
+    "descripcio": "Eclipsi total de Sol (visible a Espanya)",
+    "codi": "assets/icons/special/eclipsi.png"
   },
   {
     "mes": "agost",
     "dia": 12,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 13,
     "tipus": "meteors",
-    "descripcio": "Màxim de les Perseïdes"
+    "descripcio": "Màxim de les Perseïdes",
+    "codi": "assets/icons/special/pluja_meteors.png"
   },
   {
     "mes": "agost",
     "dia": 14,
     "tipus": "planeta",
-    "descripcio": "Mercuri en periheli"
+    "descripcio": "Mercuri en periheli",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 15,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,4° al nord d’Iris"
+    "descripcio": "La Lluna 1,4° al nord d’Iris",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 15,
     "tipus": "planeta",
-    "descripcio": "Mercuri 0,6° al nord de Júpiter"
+    "descripcio": "Mercuri 0,6° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 15,
     "tipus": "planeta",
-    "descripcio": "Mercuri 2° al nord d’Higiea"
+    "descripcio": "Mercuri 2° al nord d’Higiea",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 15,
     "tipus": "planeta",
-    "descripcio": "Màxima elongació est de Venus"
+    "descripcio": "Màxima elongació est de Venus",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 16,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud de Venus"
+    "descripcio": "La Lluna 2° al sud de Venus",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 20,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 21,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,5° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 22,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 23,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 23,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud de Flora"
+    "descripcio": "La Lluna 2° al sud de Flora",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 27,
     "tipus": "planeta",
-    "descripcio": "Mercuri en conjunció superior amb el Sol"
+    "descripcio": "Mercuri en conjunció superior amb el Sol",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 28,
     "tipus": "asteroide",
-    "descripcio": "Astrea en oposició"
+    "descripcio": "Astrea en oposició",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 28,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord d’Astrea"
+    "descripcio": "La Lluna 3° al nord d’Astrea",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 28,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 28,
     "tipus": "eclipsi",
-    "descripcio": "Eclipsi parcial de Lluna (visible a Espanya)"
+    "descripcio": "Eclipsi parcial de Lluna (visible a Espanya)",
+    "codi": ""
   },
   {
     "mes": "agost",
     "dia": 31,
     "tipus": "lluna",
-    "descripcio": "La Lluna 7° al nord de Saturn"
+    "descripcio": "La Lluna 7° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,0° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 1,0° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 3,
     "tipus": "planeta",
-    "descripcio": "Venus 2° al sud d’Espiga"
+    "descripcio": "Venus 2° al sud d’Espiga",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 4,
     "tipus": "planeta",
-    "descripcio": "Venus en afeli"
+    "descripcio": "Venus en afeli",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 4,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 5,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,6° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,6° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 6,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord de Mart"
+    "descripcio": "La Lluna 3° al nord de Mart",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 6,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 8,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,7° al nord de Júpiter (ocultació)"
+    "descripcio": "La Lluna 0,7° al nord de Júpiter (ocultació)",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 9,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,6° al sud de Règul (ocultació)"
+    "descripcio": "La Lluna 0,6° al sud de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 9,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord d’Higiea"
+    "descripcio": "La Lluna 3° al nord d’Higiea",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 10,
     "tipus": "planeta",
-    "descripcio": "Urà estacionari en ascensió recta"
+    "descripcio": "Urà estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 11,
     "tipus": "asteroide",
-    "descripcio": "Laetitia en conjunció amb el Sol"
+    "descripcio": "Laetitia en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 12,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al nord d’Iris (ocultació)"
+    "descripcio": "La Lluna 0,2° al nord d’Iris (ocultació)",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 12,
     "tipus": "lluna",
-    "descripcio": "La Lluna 4° al sud de Mercuri"
+    "descripcio": "La Lluna 4° al sud de Mercuri",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 13,
     "tipus": "asteroide",
-    "descripcio": "Juno estacionari en ascensió recta"
+    "descripcio": "Juno estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 14,
     "tipus": "asteroide",
-    "descripcio": "Harmonia en conjunció amb el Sol"
+    "descripcio": "Harmonia en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 14,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,6° al nord de Venus (ocultació)"
+    "descripcio": "La Lluna 0,6° al nord de Venus (ocultació)",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 19,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 19,
     "tipus": "planeta",
-    "descripcio": "Mart 6° al sud de Pòl·lux"
+    "descripcio": "Mart 6° al sud de Pòl·lux",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 20,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,2° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 20,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,4° al sud de Flora"
+    "descripcio": "La Lluna 1,4° al sud de Flora",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 23,
     "tipus": "estacio",
-    "descripcio": "Inici de la tardor a l’hemisferi boreal"
+    "descripcio": "Inici de la tardor a l’hemisferi boreal",
+    "codi": "assets/icons/special/equinocci_tardor.png"
   },
   {
     "mes": "setembre",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord d’Astrea"
+    "descripcio": "La Lluna 3° al nord d’Astrea",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 26,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 26,
     "tipus": "planeta",
-    "descripcio": "Mercuri 1,0° al nord d’Espiga"
+    "descripcio": "Mercuri 1,0° al nord d’Espiga",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 26,
     "tipus": "planeta",
-    "descripcio": "Neptú en oposició"
+    "descripcio": "Neptú en oposició",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 27,
     "tipus": "planeta",
-    "descripcio": "Mercuri en afeli"
+    "descripcio": "Mercuri en afeli",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 27,
     "tipus": "lluna",
-    "descripcio": "La Lluna 7° al nord de Saturn"
+    "descripcio": "La Lluna 7° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "setembre",
     "dia": 30,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,0° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 1,0° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu i 5° al nord d’Urà"
+    "descripcio": "Lluna en perigeu i 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 2,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 0,9° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 2,
     "tipus": "planeta",
-    "descripcio": "Venus estacionari en ascensió recta"
+    "descripcio": "Venus estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord de Ceres"
+    "descripcio": "La Lluna 3° al nord de Ceres",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 4,
     "tipus": "planeta",
-    "descripcio": "Saturn en oposició"
+    "descripcio": "Saturn en oposició",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 5,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,0° al nord de Mart (ocultació)"
+    "descripcio": "La Lluna 1,0° al nord de Mart (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 5,
     "tipus": "planeta",
-    "descripcio": "Mercuri 5° al nord de Venus"
+    "descripcio": "Mercuri 5° al nord de Venus",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 6,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,0° al nord de Júpiter (ocultació)"
+    "descripcio": "La Lluna 0,0° al nord de Júpiter (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,7° al sud de Règul (ocultació)"
+    "descripcio": "La Lluna 0,7° al sud de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al nord d’Higiea"
+    "descripcio": "La Lluna 2° al nord d’Higiea",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 9,
     "tipus": "meteors",
-    "descripcio": "Màxim de les Dracònides"
+    "descripcio": "Màxim de les Dracònides",
+    "codi": "assets/icons/special/pluja_meteors.png"
   },
   {
     "mes": "octubre",
     "dia": 10,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 12,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud de Mercuri i 3° al nord de Venus"
+    "descripcio": "La Lluna 2° al sud de Mercuri i 3° al nord de Venus",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 12,
     "tipus": "planeta",
-    "descripcio": "Màxima elongació est de Mercuri (25,2°)"
+    "descripcio": "Màxima elongació est de Mercuri (25,2°)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 14,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,4° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,4° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 15,
     "tipus": "planeta",
-    "descripcio": "Mercuri 4° al sud de Zuben el Genubi"
+    "descripcio": "Mercuri 4° al sud de Zuben el Genubi",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 16,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,0° al sud de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,0° al sud de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al sud de Flora (ocultació)"
+    "descripcio": "La Lluna 0,2° al sud de Flora (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 21,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al nord d’Astrea"
+    "descripcio": "La Lluna 3° al nord d’Astrea",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 21,
     "tipus": "meteors",
-    "descripcio": "Màxim de les Orió­nides"
+    "descripcio": "Màxim de les Orió­nides",
+    "codi": "assets/icons/special/pluja_meteors.png"
   },
   {
     "mes": "octubre",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord de Neptú i 7° al nord de Saturn"
+    "descripcio": "La Lluna 5° al nord de Neptú i 7° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 24,
     "tipus": "planeta",
-    "descripcio": "Mercuri estacionari en ascensió recta"
+    "descripcio": "Mercuri estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 24,
     "tipus": "planeta",
-    "descripcio": "Venus en conjunció inferior amb el Sol"
+    "descripcio": "Venus en conjunció inferior amb el Sol",
+    "codi": ""
+  },
+  {
+    "mes": "octubre",
+    "dia": 25,
+    "tipus": "horari",
+    "descripcio": "Canvi Horari d’hivern",
+    "codi": "assets/icons/special/canvi_horari.png",
+    "hora": "2:00"
   },
   {
     "mes": "octubre",
     "dia": 25,
     "tipus": "planeta",
-    "descripcio": "Màxim acostament de Venus a la Terra"
+    "descripcio": "Màxim acostament de Venus a la Terra",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 26,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 28,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 0,9° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 28,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 28,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 29,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,1° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 1,1° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "octubre",
     "dia": 31,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,3° al nord de Ceres (ocultació)"
+    "descripcio": "La Lluna 0,3° al nord de Ceres (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 2,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,6° al sud de Júpiter (ocultació)"
+    "descripcio": "La Lluna 0,6° al sud de Júpiter (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 2,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,2° al sud de Mart (ocultació)"
+    "descripcio": "La Lluna 1,2° al sud de Mart (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al sud de Règul (ocultació)"
+    "descripcio": "La Lluna 0,9° al sud de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 3,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,3° al nord d’Higiea"
+    "descripcio": "La Lluna 1,3° al nord d’Higiea",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 3,
     "tipus": "planeta",
-    "descripcio": "Màxim acostament de Mercuri a la Terra"
+    "descripcio": "Màxim acostament de Mercuri a la Terra",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 3,
     "tipus": "planeta",
-    "descripcio": "Venus 2° al sud d’Espiga"
+    "descripcio": "Venus 2° al sud d’Espiga",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 4,
     "tipus": "planeta",
-    "descripcio": "Mercuri en conjunció inferior amb el Sol"
+    "descripcio": "Mercuri en conjunció inferior amb el Sol",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,0° al sud de Venus (ocultació)"
+    "descripcio": "La Lluna 1,0° al sud de Venus (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 8,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,4° al sud d’Iris"
+    "descripcio": "La Lluna 1,4° al sud d’Iris",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 9,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 10,
     "tipus": "planeta",
-    "descripcio": "Mercuri en periheli"
+    "descripcio": "Mercuri en periheli",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,2° al sud d’Antares (ocultació)"
+    "descripcio": "La Lluna 0,2° al sud d’Antares (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 11,
     "tipus": "planeta",
-    "descripcio": "Venus estacionari en ascensió recta"
+    "descripcio": "Venus estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,1° al nord de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,1° al nord de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 13,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 13,
     "tipus": "planeta",
-    "descripcio": "Mercuri estacionari en ascensió recta"
+    "descripcio": "Mercuri estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 15,
     "tipus": "planeta",
-    "descripcio": "Mart 1,2° al nord de Júpiter"
+    "descripcio": "Mart 1,2° al nord de Júpiter",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 17,
     "tipus": "meteors",
-    "descripcio": "Màxim de les Leònides"
+    "descripcio": "Màxim de les Leònides",
+    "codi": "assets/icons/special/pluja_meteors.png"
   },
   {
     "mes": "novembre",
     "dia": 19,
     "tipus": "planeta",
-    "descripcio": "Venus 2° al nord d’Espiga"
+    "descripcio": "Venus 2° al nord d’Espiga",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 21,
     "tipus": "lluna",
-    "descripcio": "La Lluna 7° al nord de Saturn"
+    "descripcio": "La Lluna 7° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 21,
     "tipus": "planeta",
-    "descripcio": "Màxima elongació oest de Mercuri (19,8°)"
+    "descripcio": "Màxima elongació oest de Mercuri (19,8°)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,7° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 0,7° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 24,
     "tipus": "planeta",
-    "descripcio": "Mart 2° al nord de Règul"
+    "descripcio": "Mart 2° al nord de Règul",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 25,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,0° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 1,0° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 25,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
-  },
-  {
-    "mes": "novembre",
-    "dia": 25,
-    "tipus": "planeta",
-    "descripcio": "Mercuri 2° al nord de Zuben el Genubi"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 25,
     "tipus": "planeta",
-    "descripcio": "Urà en oposició"
+    "descripcio": "Mercuri 2° al nord de Zuben el Genubi",
+    "codi": ""
+  },
+  {
+    "mes": "novembre",
+    "dia": 25,
+    "tipus": "planeta",
+    "descripcio": "Urà en oposició",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 30,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,2° al sud de Règul (ocultació)"
+    "descripcio": "La Lluna 1,2° al sud de Règul (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 30,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,3° al sud de Júpiter (ocultació)"
+    "descripcio": "La Lluna 1,3° al sud de Júpiter (ocultació)",
+    "codi": ""
   },
   {
     "mes": "novembre",
     "dia": 30,
     "tipus": "lluna",
-    "descripcio": "La Lluna 3° al sud de Mart"
+    "descripcio": "La Lluna 3° al sud de Mart",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 1,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,9° al nord d’Higiea (ocultació)"
+    "descripcio": "La Lluna 0,9° al nord d’Higiea (ocultació)",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 1,
     "tipus": "asteroide",
-    "descripcio": "Vesta estacionari en ascensió recta"
+    "descripcio": "Vesta estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 5,
     "tipus": "lluna",
-    "descripcio": "La Lluna 7° al sud de Venus"
+    "descripcio": "La Lluna 7° al sud de Venus",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 6,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud d’Iris"
+    "descripcio": "La Lluna 2° al sud d’Iris",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 7,
     "tipus": "lluna",
-    "descripcio": "La Lluna 6° al sud de Mercuri"
+    "descripcio": "La Lluna 6° al sud de Mercuri",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 8,
     "tipus": "planeta",
-    "descripcio": "Mercuri 0,4° al sud de Graffias"
+    "descripcio": "Mercuri 0,4° al sud de Graffias",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 9,
     "tipus": "lluna",
-    "descripcio": "Lluna nova"
+    "descripcio": "Lluna nova",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "La Lluna 0,3° al nord de Nunki (ocultació)"
+    "descripcio": "La Lluna 0,3° al nord de Nunki (ocultació)",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 11,
     "tipus": "lluna",
-    "descripcio": "Lluna en apogeu"
+    "descripcio": "Lluna en apogeu",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 11,
     "tipus": "planeta",
-    "descripcio": "Saturn estacionari en ascensió recta"
+    "descripcio": "Saturn estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 12,
     "tipus": "planeta",
-    "descripcio": "Mercuri 5° al nord d’Antares"
+    "descripcio": "Mercuri 5° al nord d’Antares",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 13,
     "tipus": "asteroide",
-    "descripcio": "Egeria en conjunció amb el Sol"
+    "descripcio": "Egeria en conjunció amb el Sol",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 13,
     "tipus": "planeta",
-    "descripcio": "Júpiter estacionari en ascensió recta"
+    "descripcio": "Júpiter estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 13,
     "tipus": "planeta",
-    "descripcio": "Neptú estacionari en ascensió recta"
+    "descripcio": "Neptú estacionari en ascensió recta",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 14,
     "tipus": "meteors",
-    "descripcio": "Màxim de les Gemínides"
+    "descripcio": "Màxim de les Gemínides",
+    "codi": "assets/icons/special/pluja_meteors.png"
   },
   {
     "mes": "desembre",
     "dia": 17,
     "tipus": "lluna",
-    "descripcio": "Quart creixent"
+    "descripcio": "Quart creixent",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 18,
     "tipus": "lluna",
-    "descripcio": "La Lluna 7° al nord de Saturn"
+    "descripcio": "La Lluna 7° al nord de Saturn",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 21,
     "tipus": "estacio",
-    "descripcio": "Inici de l’hivern a l’hemisferi boreal"
+    "descripcio": "Inici de l’hivern a l’hemisferi boreal",
+    "codi": "assets/icons/special/solstici_hivern.png"
   },
   {
     "mes": "desembre",
     "dia": 21,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,0° al nord d’Alcióne (ocultació)"
+    "descripcio": "La Lluna 1,0° al nord d’Alcióne (ocultació)",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 22,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al nord d’Urà"
+    "descripcio": "La Lluna 5° al nord d’Urà",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 22,
     "tipus": "meteors",
-    "descripcio": "Màxim de les Úrsides"
+    "descripcio": "Màxim de les Úrsides",
+    "codi": "assets/icons/special/pluja_meteors.png"
   },
   {
     "mes": "desembre",
     "dia": 22,
     "tipus": "planeta",
-    "descripcio": "Venus 3° al nord de Zuben el Genubi"
+    "descripcio": "Venus 3° al nord de Zuben el Genubi",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 23,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,3° al sud d’Elnath (ocultació)"
+    "descripcio": "La Lluna 1,3° al sud d’Elnath (ocultació)",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "Lluna en perigeu"
+    "descripcio": "Lluna en perigeu",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 24,
     "tipus": "lluna",
-    "descripcio": "Lluna plena"
+    "descripcio": "Lluna plena",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 24,
     "tipus": "planeta",
-    "descripcio": "Mercuri en afeli"
+    "descripcio": "Mercuri en afeli",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 25,
     "tipus": "planeta",
-    "descripcio": "Venus en periheli"
+    "descripcio": "Venus en periheli",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 27,
     "tipus": "lluna",
-    "descripcio": "La Lluna 2° al sud de Júpiter"
+    "descripcio": "La Lluna 2° al sud de Júpiter",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 28,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,2° al sud d’Hebe (ocultació)"
+    "descripcio": "La Lluna 1,2° al sud d’Hebe (ocultació)",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 28,
     "tipus": "lluna",
-    "descripcio": "La Lluna 5° al sud de Mart"
+    "descripcio": "La Lluna 5° al sud de Mart",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 29,
     "tipus": "lluna",
-    "descripcio": "La Lluna 1,1° al nord d’Higiea (ocultació)"
+    "descripcio": "La Lluna 1,1° al nord d’Higiea (ocultació)",
+    "codi": ""
   },
   {
     "mes": "desembre",
     "dia": 30,
     "tipus": "lluna",
-    "descripcio": "Quart minvant"
+    "descripcio": "Quart minvant",
+    "codi": ""
   }
 ]
