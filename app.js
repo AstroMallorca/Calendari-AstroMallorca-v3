@@ -10,7 +10,7 @@ const SHEET_EFEMERIDES = `${BASE_SHEETS}?output=csv&gid=1305356303`;
 const LOCAL_EFEMERIDES_CSV = "data/efemerides_2026_data_unica_importancia.csv";
 
 // ✅ FESTIUS (A=data DD-MM-YYYY, B=nom)
-const SHEET_FESTIUS = `${BASE_SHEETS}?output=csv&gid=1058273430`;
+const SHEET_FESTIUS = "data/FESTIUS_BALEARS.csv";
 
 // ICS públic
 const CALENDAR_ICS =
