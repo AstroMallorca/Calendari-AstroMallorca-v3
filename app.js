@@ -929,6 +929,7 @@ function dibuixaMes(isoYM) {
     ...collectNewMoons(moonByDay,     Y,     M - 1),
     ...collectNewMoons(moonNextByDay, nextY, nextM1 - 1),
   ];
+console.log("newMoonDates:", newMoonDates);
 
 
   function pintaCel(dateObj, esAltreMes){
