@@ -5,7 +5,7 @@ const BASE_SHEETS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWf6OL8LYz
 
 
 const SHEET_FOTOS_MES = "data/FOTOS_MES.csv";
-const SHEET_EFEMERIDES = `${BASE_SHEETS}?output=csv&gid=1305356303`;
+// const SHEET_EFEMERIDES = `${BASE_SHEETS}?output=csv&gid=1305356303`;
 // ✅ Efemèrides especials (icones) en LOCAL (CSV)
 const LOCAL_EFEMERIDES_CSV = "data/efemerides_2026_data_unica_importancia.csv";
 
