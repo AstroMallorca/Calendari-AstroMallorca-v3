@@ -911,6 +911,25 @@ function dibuixaMes(isoYM) {
   const daysInPrev     = new Date(prevY, prevM1, 0).getDate();
   const moonPrevByDay  = getMoonQuartersForMonth(prevY, prevM1 - 1);
   const moonNextByDay  = getMoonQuartersForMonth(nextY, nextM1 - 1);
+    // ⭐ Dies bons per astrofoto: +/- 3 dies de Lluna nova (quarter=0)
+  const MS_PER_DAY = 24*3600*1000;
+
+  function collectNewMoons(map, year, monthIndex0){
+    const out = [];
+    for (const [day, quarters] of map.entries()){
+      if (Array.isArray(quarters) && quarters.includes(0)){
+        out.push(new Date(year, monthIndex0, day, 0, 0, 0));
+      }
+    }
+    return out;
+  }
+
+  const newMoonDates = [
+    ...collectNewMoons(moonPrevByDay, prevY, prevM1 - 1),
+    ...collectNewMoons(moonByDay,     Y,     M - 1),
+    ...collectNewMoons(moonNextByDay, nextY, nextM1 - 1),
+  ];
+
 
   function pintaCel(dateObj, esAltreMes){
     const y  = dateObj.getFullYear();
@@ -927,6 +946,23 @@ function dibuixaMes(isoYM) {
 
     const cel = document.createElement("div");
     cel.className = "dia" + (esAltreMes ? " altre-mes" : "");
+        // ⭐ Marca el “marc” segons proximitat a Lluna nova (0..3)
+    if (newMoonDates.length){
+      const dayDate = new Date(y, m1 - 1, d, 0, 0, 0);
+      let best = Infinity;
+
+      for (const nm of newMoonDates){
+        const diffDays = Math.round((dayDate.getTime() - nm.getTime()) / MS_PER_DAY);
+        const ad = Math.abs(diffDays);
+        if (ad < best) best = ad;
+        if (best === 0) break;
+      }
+
+      if (best <= 3){
+        cel.classList.add(`astrofoto-${best}`); // astrofoto-0..3
+      }
+    }
+
 
     // ✅ Avui en groc (només si és exactament avui)
     if (iso === AVUI_ISO) cel.classList.add("avui");
