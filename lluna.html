@@ -829,30 +829,44 @@ const set  = rs.set;
           return `${dt.getFullYear()}-${String(dt.getMonth()+1).padStart(2,"0")}-${String(dt.getDate()).padStart(2,"0")}`;
         }
 
-function isWithin3DaysBeforeNewMoon(dayLocalNoon){
-  // proper esdeveniment de Lluna nova (angle 0) cap endavant
+function isWithin3DaysNearNewMoon(dayLocalNoon){
   const t0 = Astronomy.MakeTime(dayLocalNoon);
-  const nmTime = Astronomy.SearchMoonPhase(0, t0, +1); // ✅ direcció correcta (+1)
 
-  // nmTime pot ser AstroTime o objecte amb .date
-  const nmDate = evToDateAny(nmTime) || (nmTime && nmTime.date ? new Date(nmTime.date) : null);
-  if (!nmDate) return { ok:false, nmDate:null, diffDays:null };
+  // propera Lluna nova (cap endavant) i l'anterior (cap enrere)
+  const nmNextTime = Astronomy.SearchMoonPhase(0, t0, +1);
+  const nmPrevTime = Astronomy.SearchMoonPhase(0, t0, -1);
 
-  // diferència en dies (Lluna nova - dia seleccionat)
+  const nmNext = evToDateAny(nmNextTime) || (nmNextTime && nmNextTime.date ? new Date(nmNextTime.date) : null);
+  const nmPrev = evToDateAny(nmPrevTime) || (nmPrevTime && nmPrevTime.date ? new Date(nmPrevTime.date) : null);
+
+  if (!nmNext && !nmPrev) return { ok:false, nmDate:null, diffDays:null, side:null };
+
   const day0 = new Date(dayLocalNoon); day0.setHours(0,0,0,0);
-  const nm0  = new Date(nmDate);       nm0.setHours(0,0,0,0);
 
-  const diffDays = Math.round((nm0.getTime() - day0.getTime()) / 86400000);
+  function diffDaysTo(d){
+    const x = new Date(d); x.setHours(0,0,0,0);
+    return Math.round((x.getTime() - day0.getTime()) / 86400000);
+  }
 
-  // ✅ “3 dies abans” incloent el mateix dia de Lluna nova: 0..3
-  // si vols excloure el mateix dia: canvia a (diffDays >= 1 && diffDays <= 3)
-  const ok = (diffDays >= 0 && diffDays <= 3);
+  let best = null;
 
-  return { ok, nmDate, diffDays };
+  if (nmNext){
+    const dn = diffDaysTo(nmNext); // pot ser 0..+∞
+    best = { nmDate: nmNext, diffDays: dn, side: (dn >= 0 ? "abans" : "despres") };
+  }
+
+  if (nmPrev){
+    const dp = diffDaysTo(nmPrev); // normalment <= 0
+    const cand = { nmDate: nmPrev, diffDays: dp, side: (dp <= 0 ? "despres" : "abans") };
+
+    if (!best || Math.abs(dp) < Math.abs(best.diffDays)) best = cand;
+  }
+
+  const ok = Math.abs(best.diffDays) <= 3;   // ✅ -3..+3
+  return { ok, ...best };
 }
 
-
-        const check = isWithin3DaysBeforeNewMoon(day); // "day" és el teu Date al migdia local
+        const check = isWithin3DaysNearNewMoon(day);
         console.log("[ASTRO]", dateStr, check);
 
         if (astroCard && check.ok){
