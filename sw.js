@@ -27,6 +27,8 @@ const CORE_ASSETS = [
 
   // Dades locals (si existeixen)
   "data/efemerides_2026.json"
+   "data/FOTOS_MES.csv",
+  "data/FESTIUS_BALEARS.csv"
   // Pots afegir aquí altres json locals si els fas servir sempre:
   // "data/cataleg_icones.json",
   // "data/eclipses.json",
