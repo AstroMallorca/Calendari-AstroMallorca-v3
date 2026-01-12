@@ -304,11 +304,11 @@ data;tipus;titol;codi;Hora;importancia
 07-10-2026;lluna;La Lluna 0,7° al sud de Règul (ocultació);;;5
 07-10-2026;lluna;La Lluna 2° al nord d’Higiea;;;5
 09-10-2026;meteors;Màxim de les Dracònides;assets/icons/special/pluja_meteors.png;;9
-09-10-2026;planeta;Congres estatal d'associacions astronòmiques, Sabadell;assets/icons/special/faee.png;;9
-10-10-2026;planeta;Congres estatal d'associacions astronòmiques, Sabadell;assets/icons/special/faee.png;;9
+09-10-2026;planeta;Congres estatal d'associacions astronòmiques, Sabadell;assets/icons/special/faae.png;;9
+10-10-2026;planeta;Congres estatal d'associacions astronòmiques, Sabadell;assets/icons/special/faae.png;;9
 10-10-2026;lluna;Lluna nova;;;5
-11-10-2026;planeta;Congres estatal d'associacions astronòmiques, Sabadell;assets/icons/special/faee.png;;9
-12-10-2026;planeta;Congres estatal d'associacions astronòmiques, Sabadell;assets/icons/special/faee.png;;9
+11-10-2026;planeta;Congres estatal d'associacions astronòmiques, Sabadell;assets/icons/special/faae.png;;9
+12-10-2026;planeta;Congres estatal d'associacions astronòmiques, Sabadell;assets/icons/special/faae.png;;9
 12-10-2026;lluna;La Lluna 2° al sud de Mercuri i 3° al nord de Venus;;;5
 12-10-2026;planeta;Màxima elongació est de Mercuri (25,2°);;;6
 14-10-2026;lluna;La Lluna 0,4° al sud d’Antares (ocultació);;;5
@@ -397,6 +397,7 @@ data;tipus;titol;codi;Hora;importancia
 28-12-2026;lluna;La Lluna 5° al sud de Mart;;;5
 29-12-2026;lluna;La Lluna 1,1° al nord d’Higiea (ocultació);;;5
 30-12-2026;lluna;Quart minvant;;;5
+
 
 
 
