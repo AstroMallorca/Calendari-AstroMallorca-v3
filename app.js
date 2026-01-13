@@ -1082,9 +1082,21 @@ async function obreDia(iso) {
   const llunaFaseTxt = info.lluna ? `${info.lluna.fase || ""} (${info.lluna.il_luminacio_percent ?? ""}%)` : "—";
   const astrofoto = info.lluna_foscor?.apte_astrofotografia ? "🌑 Dia favorable per astrofotografia" : "";
 
-  const espHtml = esp.length
-    ? `<h3>Efemèrides</h3><ul>${esp.map(e => `<li>${(e.titol || e.codi)}${e.hora ? " — " + e.hora : ""}</li>`).join("")}</ul>`
-    : `<h3>Efemèrides</h3><p>Cap destacat.</p>`;
+  const espHtml = espOrdenades.length
+  ? `<h3>Efemèrides</h3><ul class="esp-llista">${
+      espOrdenades.map(e => {
+        const label = (e.titol || e.clau || e.tipus || e.codi || "").trim();
+        const icon  = (e.codi || "").trim();
+
+        const iconHtml = icon
+          ? `<img class="esp-icon" src="${icon}" alt="${label.replace(/"/g,"&quot;")}" loading="lazy">`
+          : "";
+
+        return `<li class="esp-row">${iconHtml}<span>${label}${e.hora ? " — " + e.hora : ""}</span></li>`;
+      }).join("")
+    }</ul>`
+  : `<h3>Efemèrides</h3><p>Cap destacat.</p>`;
+
 
   const actHtml = act.length
     ? `<h3>Activitats AstroMallorca</h3><ul>${act.map(a => `<li><b>${a.titol}</b>${a.lloc ? " — " + a.lloc : ""}${a.url ? ` — <a href="${a.url}" target="_blank">Enllaç</a>` : ""}</li>`).join("")}</ul>`
