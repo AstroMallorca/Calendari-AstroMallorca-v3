@@ -1114,6 +1114,20 @@ async function obreDia(iso) {
 const [yStr, mStr] = iso.split("-");
 const y = Number(yStr);
 const m1 = Number(mStr);
+  const d1 = Number(iso.slice(8,10));
+
+const Q_LABEL = {
+  0: "Lluna nova",
+  1: "Quart creixent",
+  2: "Lluna plena",
+  3: "Quart minvant",
+};
+
+// mira si aquest dia té un “quart” (pot ser 1 o més, però normalment 1)
+const qMap = getMoonQuartersForMonth(y, m1 - 1);
+const qArr = qMap.get(d1) || [];
+const moonQuarterLabel = (qArr.length ? (Q_LABEL[qArr[0]] || "") : "");
+
 
 const monthData = await loadHistoricMonth(y, m1);
 const rawHist = pickHistoricForISO(monthData, iso);
@@ -1235,7 +1249,7 @@ ${nomFestiu ? `<div class="dia-festiu">🎉 ${nomFestiu}</div>` : ""}
   <img src="assets/icons/moon.png" alt="Lluna">
 </div>
     <div class="dia-row-text">
-      <div class="dia-row-title">La Lluna avui</div>
+      <div class="dia-row-title">La Lluna avui${moonQuarterLabel ? ` — ${moonQuarterLabel}` : ""}</div>
       <div class="dia-row-sub">${llunaTxt}</div>
     </div>
   </div>
