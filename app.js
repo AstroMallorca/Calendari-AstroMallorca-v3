@@ -1144,13 +1144,25 @@ const activitatHtml = teActivitat
 const especialsHtml = teEspecials
   ? `<div class="dia-card">
        <div class="dia-card-title">Efemèrides especials</div>
-       <ul class="dia-list">
-         ${espOrdenades.map(e => `
-           <li>
-             ${(e.titol || e.clau || "").trim()}
-             ${e.hora ? ` — ${e.hora}` : ""}
-           </li>
-         `).join("")}
+       <ul class="dia-list dia-especials">
+         ${espOrdenades.map(e => {
+           const label = (e.titol || e.clau || e.tipus || "").trim();
+           const icon  = (e.codi || "").trim();
+
+           const iconHtml = icon
+             ? `<img class="esp-icon esp-icon-modal"
+                     src="${icon}"
+                     alt="${label.replace(/"/g,"&quot;")}"
+                     loading="lazy">`
+             : "";
+
+           return `
+             <li class="dia-especial-row">
+               ${iconHtml}
+               <span>${label}${e.hora ? ` — ${e.hora}` : ""}</span>
+             </li>
+           `;
+         }).join("")}
        </ul>
      </div>`
   : "";
