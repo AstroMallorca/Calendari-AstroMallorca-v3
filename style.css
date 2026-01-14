@@ -411,6 +411,18 @@ body.nocturn .btn-nav-mes{
   font-weight: 800;
   margin-bottom: 10px;
 }
+/* Evita que els enllaços llargs surtin del quadre */
+.dia-card,
+.dia-note,
+.dia-list li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Enllaços llargs (maps, wordpress, etc.) */
+.dia-note a {
+  word-break: break-all;
+}
 
 .dia-muted{
   opacity: .7;
