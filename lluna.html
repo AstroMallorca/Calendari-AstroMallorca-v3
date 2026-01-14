@@ -800,10 +800,6 @@ function getMoonRiseSetWindowForDay(observer, iso){
   // Helper: durada total del tram
   const durMs = (win) => (win && win.rise && win.set) ? (win.set.getTime() - win.rise.getTime()) : -1;
 
-  // Moment de prioritat: vespre del mateix dia (21:00)
-  const pref = new Date(dayStart);
-  pref.setHours(21, 0, 0, 0);
-
   // Si no hi ha events, fora
   if (!riseNext && !setNext) return { rise:null, set:null };
 
@@ -827,10 +823,24 @@ function getMoonRiseSetWindowForDay(observer, iso){
       candNext = { rise: riseNext, set: setAfterRise || setNext };
     }
 
-    // 🔥 Regla: prioritzar el tram que CONTÉ el vespre (21:00) del mateix dia.
-    // Si cap el conté, triar el que té més solapament amb el dia.
-    if (candNext && contains(candNext, pref) && !contains(candPrev, pref)) return candNext;
-    if (contains(candPrev, pref) && (!candNext || !contains(candNext, pref))) return candPrev;
+    // 🔥 Regla nova: prioritzar el tram amb més temps "vespre" del mateix dia:
+    // definim vespre = des de les 12:00 fins a les 24:00 del dia seleccionat.
+    const vespreStart = new Date(dayStart); vespreStart.setHours(12,0,0,0);
+    const vespreEnd   = new Date(dayStart); vespreEnd.setDate(vespreEnd.getDate()+1); vespreEnd.setHours(0,0,0,0);
+
+    const overlapRangeMs = (win, a, b) => {
+      if (!win || !win.rise || !win.set) return 0;
+      const x = Math.max(win.rise.getTime(), a.getTime());
+      const y = Math.min(win.set.getTime(),  b.getTime());
+      return Math.max(0, y - x);
+    };
+
+    const vPrev = overlapRangeMs(candPrev, vespreStart, vespreEnd);
+    const vNext = candNext ? overlapRangeMs(candNext, vespreStart, vespreEnd) : -1;
+
+    if (candNext && vNext > vPrev) return candNext;
+    if (vPrev > vNext) return candPrev;
+
 
     const oPrev = overlapMs(candPrev);
     const oNext = candNext ? overlapMs(candNext) : -1;
