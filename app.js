@@ -1014,14 +1014,11 @@ function obreModalDetallFoto(f) {
       modal.classList.add("ocult");
     });
   }
-
-   // ✅ Necessari perquè el botó Android "enrere" tanqui el modal i no la PWA
-  ensureModalHistory(iso);
-
+// ✅ Android: cream estat modal sense dependre d'una variable inexistent
+// (no canviam la data: només volem 1 pas d'historial per tancar el modal)
+ensureModalHistory(null);
   modal.classList.remove("ocult");
 }
-
-
 
 function dibuixaMes(isoYM) {
   graella.innerHTML = "";
@@ -1428,7 +1425,11 @@ contingutDia.querySelectorAll(".dia-link").forEach(el => {
 });
 
 
-  modal.classList.remove("ocult");
+ // ✅ Android: cream estat d'historial perquè el botó "enrere" tanqui el modal
+ensureModalHistory(iso);
+
+modal.classList.remove("ocult");
+
   // === Navegació dia anterior / següent ===
 const btnPrev = contingutDia.querySelector(".dia-prev");
 const btnNext = contingutDia.querySelector(".dia-next");
