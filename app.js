@@ -862,6 +862,43 @@ const graella = document.getElementById("graellaDies");
 const modal = document.getElementById("modalDia");
 const contingutDia = document.getElementById("contingutDia");
 const botoNocturn = document.getElementById("toggleNocturn");
+// === Android BACK: si el modal està obert, "enrere" ha de tancar el modal i no tancar la PWA ===
+function buildUrlWithDate(iso){
+  const u = new URL(location.href);
+  if (iso) u.searchParams.set("date", iso);
+  else u.searchParams.delete("date");
+  return u.toString();
+}
+
+// Crea (o actualitza) un estat d'historial mentre el modal és obert
+function ensureModalHistory(iso){
+  try{
+    const st = history.state || null;
+
+    // Si ja som dins "mode modal", actualitzam en lloc d'apilar
+    if (st && st.__amModal === true){
+      history.replaceState({ __amModal: true, date: iso }, "", buildUrlWithDate(iso));
+      return;
+    }
+
+    // Si no, cream una entrada nova perquè el botó "enrere" tanqui el modal
+    history.pushState({ __amModal: true, date: iso }, "", buildUrlWithDate(iso));
+  }catch(e){}
+}
+
+function closeModalOnly(){
+  modal.classList.add("ocult");
+}
+
+// Si l'usuari prem "enrere" i el modal és obert -> tancam el modal
+try{
+  window.addEventListener("popstate", () => {
+    if (modal && !modal.classList.contains("ocult")){
+      closeModalOnly();
+    }
+  });
+}catch(e){}
+
 // ✅ Aplica el mode nocturn guardat en carregar la pàgina principal
 try{
   const saved = localStorage.getItem("nocturn") === "1";
@@ -977,6 +1014,9 @@ function obreModalDetallFoto(f) {
       modal.classList.add("ocult");
     });
   }
+
+   // ✅ Necessari perquè el botó Android "enrere" tanqui el modal i no la PWA
+  ensureModalHistory(iso);
 
   modal.classList.remove("ocult");
 }
@@ -1424,7 +1464,17 @@ if (btnNext){
 }
 
 const btnTancar = document.querySelector(".tancar");
-if (btnTancar) btnTancar.onclick = () => modal.classList.add("ocult");
+if (btnTancar) btnTancar.onclick = () => {
+  try{
+    // Si el modal ha creat estat d'historial, tornam enrere (això dispararà popstate i tancarà modal)
+    if (history.state && history.state.__amModal === true){
+      history.back();
+      return;
+    }
+  }catch(e){}
+  // fallback
+  modal.classList.add("ocult");
+};
 
 botoNocturn.onclick = () => {
   const on = document.body.classList.toggle("nocturn");
@@ -1551,8 +1601,13 @@ fotosMes = buildFotosMes(fotos);
     renderMes(mesActual);
     // ✅ Si hi ha deep-link, obrim el modal del dia
 if (DEEPLINK_ISO) {
+  // ✅ Important a Android: cream una "base" sense ?date perquè hi hagi enrere intern
+  try{
+    history.replaceState({ __amBase: true }, "", location.pathname);
+  }catch(e){}
   await obreDia(DEEPLINK_ISO);
 }
+
 // Ja està obert el modal: podem mostrar el calendari sense "flash"
 try{ document.documentElement.classList.remove("deeplink-opening"); }catch(e){}
 
